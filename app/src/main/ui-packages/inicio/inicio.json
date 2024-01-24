@@ -1,0 +1,680 @@
+{
+  "name": "inicio",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "q004H5PbPkMvCm4mpQDusZ",
+    "node": "193:2",
+    "version": "5025360047",
+    "component-id": "91209fc99bb9ac3718456e3824e812de4cf12f48"
+  },
+  "default": "Inicio",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "image 5"
+      },
+      {
+        "type": "text",
+        "id": "Inicio_Actualidad"
+      },
+      {
+        "type": "text",
+        "id": "Inicio_Actualidad1"
+      },
+      {
+        "type": "text",
+        "id": "Inicio_Actualidad2"
+      },
+      {
+        "type": "image",
+        "id": "contacto"
+      },
+      {
+        "type": "image",
+        "id": "image 1"
+      },
+      {
+        "type": "image",
+        "id": "review_1"
+      },
+      {
+        "type": "image",
+        "id": "review_2"
+      },
+      {
+        "type": "image",
+        "id": "review_4"
+      },
+      {
+        "type": "image",
+        "id": "image 25"
+      },
+      {
+        "type": "image",
+        "id": "boton_inicio"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 9"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 11"
+      },
+      {
+        "type": "vector",
+        "id": "boton1"
+      },
+      {
+        "type": "vector",
+        "id": "boton2"
+      },
+      {
+        "type": "vector",
+        "id": "boton3"
+      },
+      {
+        "type": "text",
+        "id": "texto"
+      },
+      {
+        "type": "text",
+        "id": "texto1"
+      }
+    ],
+    "modes": {
+      "Inicio": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "image 5",
+              "Inicio_Actualidad",
+              "Inicio_Actualidad1",
+              "Inicio_Actualidad2",
+              "contacto",
+              "image 1",
+              "review_1",
+              "review_2",
+              "review_4",
+              "image 25",
+              "boton_inicio",
+              "Rectangle 9",
+              "Rectangle 11",
+              "boton1",
+              "boton2",
+              "boton3",
+              "texto",
+              "texto1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "image 5",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "800.0"
+              }
+            },
+            "image-content": "image_5.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Inicio_Actualidad",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "90.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "127.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "167.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "38.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$actualidad_text",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Inicio_Actualidad1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "22.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "360.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "306.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$content_text_1",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Inicio_Actualidad2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "55.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "562.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "221.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$content_text_2",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "20.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "contacto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "300.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "690.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "45.0"
+              }
+            },
+            "image-content": "contacto.png",
+            "scale": "cover"
+          },
+          {
+            "id": "image 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "10.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "182.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "335.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "150.0"
+              }
+            },
+            "image-content": "image_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "review_1",
+            "border-radius": "100.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "15.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "620.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "100.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "46.0"
+              }
+            },
+            "image-content": "review_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "review_2",
+            "border-radius": "100.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "129.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "620.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "96.69387817382812"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "46.0"
+              }
+            },
+            "image-content": "review_2.png",
+            "scale": "cover"
+          },
+          {
+            "id": "review_4",
+            "border-radius": "100.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "240.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "620.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "101.85714721679688"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "46.0"
+              }
+            },
+            "image-content": "review_4.png",
+            "scale": "cover"
+          },
+          {
+            "id": "image 25",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "10.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "410.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "332.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "125.0"
+              }
+            },
+            "image-content": "image_25.png",
+            "scale": "cover"
+          },
+          {
+            "id": "boton_inicio",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "131.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "10.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "100.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "98.0"
+              }
+            },
+            "image-content": "boton_inicio.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Rectangle 9",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "11.0"
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": "-398.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "332.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "55.0"
+              }
+            },
+            "vector-content": "rectangle_9.svg"
+          },
+          {
+            "id": "Rectangle 11",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "11.0"
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": "-195.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "332.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "55.0"
+              }
+            },
+            "vector-content": "rectangle_11.svg"
+          },
+          {
+            "id": "boton1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "15.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "124.0"
+              }
+            },
+            "tap-handler": "$boton_review",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "91.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "boton1.svg"
+          },
+          {
+            "id": "boton2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "126.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "124.0"
+              }
+            },
+            "tap-handler": "$boton_actualidad",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "boton2.svg"
+          },
+          {
+            "id": "boton3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "238.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "124.0"
+              }
+            },
+            "tap-handler": "$boton_curiosidades",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "110.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "boton3.svg"
+          },
+          {
+            "id": "texto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "226.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "128.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "134.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "19.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$curiosidades_text",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "texto1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-8.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "128.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "134.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$reviews_text",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "actualidad_text": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "content_text_1": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "content_text_2": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "boton_review": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "boton_actualidad": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "boton_curiosidades": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "curiosidades_text": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "reviews_text": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Inicio",
+      "size": {
+        "width": 360.0,
+        "height": 800.0
+      },
+      "parameters": {
+        "actualidad_text": "Actualidad",
+        "content_text_1": "¡El nuevo GTA está a la vuelta de la esquina!",
+        "content_text_2": "Reviews más recientes",
+        "curiosidades_text": "Curiosidades\n",
+        "reviews_text": "Reviews"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

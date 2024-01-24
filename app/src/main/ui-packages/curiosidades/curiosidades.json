@@ -1,0 +1,534 @@
+{
+  "name": "curiosidades",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "q004H5PbPkMvCm4mpQDusZ",
+    "node": "193:4",
+    "version": "4989201977",
+    "component-id": "a58f11a7051cfd40bbedbfbf56209c17a243838a"
+  },
+  "default": "Curiosidades",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "image 5"
+      },
+      {
+        "type": "image",
+        "id": "image 22"
+      },
+      {
+        "type": "image",
+        "id": "image 23"
+      },
+      {
+        "type": "text",
+        "id": "Inicio_Actualidad"
+      },
+      {
+        "type": "text",
+        "id": "Inicio_Actualidad1"
+      },
+      {
+        "type": "image",
+        "id": "image 7"
+      },
+      {
+        "type": "image",
+        "id": "image 2"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 12"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 13"
+      },
+      {
+        "type": "text",
+        "id": "Inicio_Actualidad2"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 4"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 5"
+      },
+      {
+        "type": "text",
+        "id": "Inicio_Actualidad3"
+      },
+      {
+        "type": "text",
+        "id": "Inicio_Actualidad4"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 6"
+      }
+    ],
+    "modes": {
+      "Curiosidades": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "image 5",
+              "image 22",
+              "image 23",
+              "Inicio_Actualidad",
+              "Inicio_Actualidad1",
+              "image 7",
+              "image 2",
+              "Rectangle 12",
+              "Rectangle 13",
+              "Inicio_Actualidad2",
+              "Rectangle 4",
+              "Rectangle 5",
+              "Inicio_Actualidad3",
+              "Inicio_Actualidad4",
+              "Rectangle 6"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "image 5",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "800.0"
+              }
+            },
+            "image-content": "image_5.png",
+            "scale": "cover"
+          },
+          {
+            "id": "image 22",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "16.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "188.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "332.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "148.0"
+              }
+            },
+            "image-content": "image_22.png",
+            "scale": "cover"
+          },
+          {
+            "id": "image 23",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "19.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "430.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "327.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "150.0"
+              }
+            },
+            "image-content": "image_23.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Inicio_Actualidad",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "28.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "350.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "306.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "GTA V se trata de, videojuego mas caro en ser producido, alcanzando la cifra de 265 millones de dólares americanos",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Inicio_Actualidad1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "27.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "607.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "306.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "La saga más extensa de videojuegos le pertenece a Mega Man, de Capcom, desde su inicio en 1987",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "image 7",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "300.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "690.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "45.0"
+              }
+            },
+            "image-content": "image_7.png",
+            "scale": "cover"
+          },
+          {
+            "id": "image 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "131.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "10.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "100.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "98.0"
+              }
+            },
+            "image-content": "image_2.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Rectangle 12",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "17.0"
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": "-389.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "332.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "61.0"
+              }
+            },
+            "vector-content": "rectangle_12.svg"
+          },
+          {
+            "id": "Rectangle 13",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "17.0"
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": "-129.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "332.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "71.0"
+              }
+            },
+            "vector-content": "rectangle_13.svg"
+          },
+          {
+            "id": "Inicio_Actualidad2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-8.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "128.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "134.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Reviews",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Rectangle 4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "15.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "124.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "91.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_4.svg"
+          },
+          {
+            "id": "Rectangle 5",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "126.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "124.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_5.svg"
+          },
+          {
+            "id": "Inicio_Actualidad3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "226.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "128.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "134.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "19.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Curiosidades\n",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Inicio_Actualidad4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "90.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "127.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "167.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "38.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Actualidad",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Rectangle 6",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "238.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "124.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "110.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_6.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Curiosidades",
+      "size": {
+        "width": 360.0,
+        "height": 800.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

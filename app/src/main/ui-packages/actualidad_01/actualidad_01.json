@@ -1,0 +1,598 @@
+{
+  "name": "actualidad_01",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "q004H5PbPkMvCm4mpQDusZ",
+    "node": "193:34",
+    "version": "4989201977",
+    "component-id": "6753b04f07ac72235cfbafcf7015248c3c8b514d"
+  },
+  "default": "Actualidad_01",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "image 5"
+      },
+      {
+        "type": "text",
+        "id": "Inicio_Actualidad"
+      },
+      {
+        "type": "text",
+        "id": "Inicio_Actualidad1"
+      },
+      {
+        "type": "image",
+        "id": "image 4"
+      },
+      {
+        "type": "image",
+        "id": "image 7"
+      },
+      {
+        "type": "image",
+        "id": "image 8"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 17"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 18"
+      },
+      {
+        "type": "group",
+        "id": "Frame 1"
+      },
+      {
+        "type": "image",
+        "id": "image 53"
+      },
+      {
+        "type": "image",
+        "id": "image 2"
+      },
+      {
+        "type": "text",
+        "id": "Inicio_Actualidad2"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 7"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 4"
+      },
+      {
+        "type": "text",
+        "id": "Inicio_Actualidad3"
+      },
+      {
+        "type": "text",
+        "id": "Inicio_Actualidad4"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 6"
+      }
+    ],
+    "modes": {
+      "Actualidad_01": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "image 5",
+              "Inicio_Actualidad",
+              "Inicio_Actualidad1",
+              "image 4",
+              "image 7",
+              "image 8",
+              "Rectangle 17",
+              "Rectangle 18",
+              "Frame 1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "image 5",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "360.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "800.0"
+              }
+            },
+            "image-content": "image_5.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Inicio_Actualidad",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "20.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "430.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "324.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "154.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Los fans ponen la fecha entre el 3 y 5 de diciembre\nYa solo el impacto del anuncio del trailer fue brutal en redes sociales. El hype por el juego es completamente increíble, y el pasado 8 de noviembre, Rockstar batió el récord de tuit con temática de videojuegos con más me gusta y visualizaciones de la historia, con más de 1,5 millones de me gusta y 178 millones de visitas.",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "13.0",
+            "line-height": "1.2102272327129657",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Inicio_Actualidad1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "30.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "910.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "300.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "110.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "El tamaño de su mapa jugable está aun por saber, anque en base a algunas filtraciones de confianza, podria tratarse de un mapa que prácticamente duplica el mapa de la anterior entrega",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "13.0",
+            "line-height": "1.2102272327129657",
+            "typeface": "Inter"
+          },
+          {
+            "id": "image 4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "10.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "182.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "340.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "218.0"
+              }
+            },
+            "image-content": "image_4.png",
+            "scale": "cover"
+          },
+          {
+            "id": "image 7",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "310.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "1065.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "45.0"
+              }
+            },
+            "image-content": "image_7.png",
+            "scale": "cover"
+          },
+          {
+            "id": "image 8",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "16.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "600.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "329.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "280.0"
+              }
+            },
+            "image-content": "image_8.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Rectangle 17",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "12.0"
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": "-628.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "335.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "150.0"
+              }
+            },
+            "vector-content": "rectangle_17.svg"
+          },
+          {
+            "id": "Rectangle 18",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "15.0"
+              },
+              "vertical": {
+                "attachment": "end",
+                "offset": "-180.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "335.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "117.0"
+              }
+            },
+            "vector-content": "rectangle_18.svg"
+          },
+          {
+            "id": "Frame 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-8.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "10.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "368.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "155.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "image 53",
+              "image 2",
+              "Inicio_Actualidad2",
+              "Rectangle 7",
+              "Rectangle 4",
+              "Inicio_Actualidad3",
+              "Inicio_Actualidad4",
+              "Rectangle 6"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "image 53",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "10.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-10.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "357.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "161.0"
+              }
+            },
+            "image-content": "image_53.png",
+            "scale": "cover"
+          },
+          {
+            "id": "image 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "139.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "100.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "98.0"
+              }
+            },
+            "image-content": "image_2.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Inicio_Actualidad2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "234.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "118.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "134.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "19.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Curiosidades\n",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Rectangle 7",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "134.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "114.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_7.svg"
+          },
+          {
+            "id": "Rectangle 4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "23.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "114.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "91.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_4.svg"
+          },
+          {
+            "id": "Inicio_Actualidad3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "118.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "134.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Reviews",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Inicio_Actualidad4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "98.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "117.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "167.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "38.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Actualidad",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Rectangle 6",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "246.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "114.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "110.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_6.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Actualidad_01",
+      "size": {
+        "width": 360.0,
+        "height": 1195.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
