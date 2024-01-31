@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "q004H5PbPkMvCm4mpQDusZ",
     "node": "193:3",
-    "version": "4988973932",
+    "version": "5069134208",
     "component-id": "609fe470bac3012843e6def2e6ec97885b2c5d65"
   },
   "default": "Reviews",
@@ -75,6 +75,14 @@
       {
         "type": "text",
         "id": "Inicio_Actualidad2"
+      },
+      {
+        "type": "vector",
+        "id": "botonImagenInicio"
+      },
+      {
+        "type": "vector",
+        "id": "botonContacto"
       }
     ],
     "modes": {
@@ -98,7 +106,9 @@
               "Rectangle 6",
               "Inicio_Actualidad",
               "Inicio_Actualidad1",
-              "Inicio_Actualidad2"
+              "Inicio_Actualidad2",
+              "botonImagenInicio",
+              "botonContacto"
             ],
             "background-color": {
               "alpha": "1.0",
@@ -340,6 +350,7 @@
                 "offset": "124.0"
               }
             },
+            "tap-handler": "$reviews_button",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -364,6 +375,7 @@
                 "offset": "124.0"
               }
             },
+            "tap-handler": "$actualidad_button",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -388,6 +400,7 @@
                 "offset": "124.0"
               }
             },
+            "tap-handler": "$curiosidades_button",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -428,7 +441,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Curiosidades\n",
+            "text-content": "$Inicio_Actualidad text content3",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -463,7 +476,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Actualidad",
+            "text-content": "$Inicio_Actualidad text content2",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -498,15 +511,105 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Reviews",
+            "text-content": "$Inicio_Actualidad text content",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
             "line-height": "1.2102272510528564",
             "typeface": "Inter"
+          },
+          {
+            "id": "botonImagenInicio",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "132.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "tap-handler": "$inicio_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "107.0"
+              }
+            }
+          },
+          {
+            "id": "botonContacto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "300.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "688.0"
+              }
+            },
+            "tap-handler": "$contacto_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "45.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "47.0"
+              }
+            }
           }
         ]
       }
+    }
+  },
+  "parameters": {
+    "reviews_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "actualidad_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "curiosidades_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content3": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content2": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "inicio_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "contacto_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
     }
   },
   "previews": [
@@ -515,6 +618,11 @@
       "size": {
         "width": 360.0,
         "height": 800.0
+      },
+      "parameters": {
+        "Inicio_Actualidad text content3": "Curiosidades\n",
+        "Inicio_Actualidad text content2": "Actualidad",
+        "Inicio_Actualidad text content": "Reviews"
       }
     }
   ],

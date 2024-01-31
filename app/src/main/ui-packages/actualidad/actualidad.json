@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "q004H5PbPkMvCm4mpQDusZ",
     "node": "193:5",
-    "version": "4989201977",
+    "version": "5069134208",
     "component-id": "36aaf8f06732ceb7a489edfad92268fd4b1fefbc"
   },
   "default": "Actualidad",
@@ -87,6 +87,14 @@
       {
         "type": "text",
         "id": "Inicio_Actualidad5"
+      },
+      {
+        "type": "vector",
+        "id": "botonImagenInicio"
+      },
+      {
+        "type": "vector",
+        "id": "botonContacto"
       }
     ],
     "modes": {
@@ -113,7 +121,9 @@
               "Rectangle 6",
               "Inicio_Actualidad3",
               "Inicio_Actualidad4",
-              "Inicio_Actualidad5"
+              "Inicio_Actualidad5",
+              "botonImagenInicio",
+              "botonContacto"
             ],
             "background-color": {
               "alpha": "1.0",
@@ -265,7 +275,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Rockstar se pronuncia sobre su nueva entrega, GTA VI prometiendo  su trailer de lanzamiento pronto, ¿2025?",
+            "text-content": "$Inicio_Actualidad text content4",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "15.0",
@@ -300,7 +310,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "El galardón de premios anual va tocando, dentro de nada tendremos premios sobre nuestros videojuegos favoritos",
+            "text-content": "$Inicio_Actualidad text content5",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "15.0",
@@ -335,7 +345,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "La demo de Reisdent Evil 4 Remake VR llegará muy pronto, ya hay fecha para el DLC gratuito que permitirá jugar a esta entrega en VR",
+            "text-content": "$Inicio_Actualidad text content6",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "15.0",
@@ -451,6 +461,7 @@
                 "offset": "124.0"
               }
             },
+            "tap-handler": "$reviews_button",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -475,6 +486,7 @@
                 "offset": "124.0"
               }
             },
+            "tap-handler": "$actualidad_button",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -499,6 +511,7 @@
                 "offset": "124.0"
               }
             },
+            "tap-handler": "$curiosidades_button",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -539,7 +552,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Actualidad",
+            "text-content": "$Inicio_Actualidad text content2",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -574,7 +587,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Curiosidades\n",
+            "text-content": "$Inicio_Actualidad text content3",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -609,15 +622,120 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Reviews",
+            "text-content": "$Inicio_Actualidad text content",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
             "line-height": "1.2102272510528564",
             "typeface": "Inter"
+          },
+          {
+            "id": "botonImagenInicio",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "132.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "tap-handler": "$inicio_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "107.0"
+              }
+            }
+          },
+          {
+            "id": "botonContacto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "300.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "688.0"
+              }
+            },
+            "tap-handler": "$contacto_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "45.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "47.0"
+              }
+            }
           }
         ]
       }
+    }
+  },
+  "parameters": {
+    "Inicio_Actualidad text content4": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content5": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content6": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "reviews_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "actualidad_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "curiosidades_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content2": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content3": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "inicio_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "contacto_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
     }
   },
   "previews": [
@@ -626,6 +744,14 @@
       "size": {
         "width": 360.0,
         "height": 800.0
+      },
+      "parameters": {
+        "Inicio_Actualidad text content4": "Rockstar se pronuncia sobre su nueva entrega, GTA VI prometiendo  su trailer de lanzamiento pronto, ¿2025?",
+        "Inicio_Actualidad text content5": "El galardón de premios anual va tocando, dentro de nada tendremos premios sobre nuestros videojuegos favoritos",
+        "Inicio_Actualidad text content6": "La demo de Reisdent Evil 4 Remake VR llegará muy pronto, ya hay fecha para el DLC gratuito que permitirá jugar a esta entrega en VR",
+        "Inicio_Actualidad text content2": "Actualidad",
+        "Inicio_Actualidad text content3": "Curiosidades\n",
+        "Inicio_Actualidad text content": "Reviews"
       }
     }
   ],

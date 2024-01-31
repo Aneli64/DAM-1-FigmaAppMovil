@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "q004H5PbPkMvCm4mpQDusZ",
     "node": "193:2",
-    "version": "5025360047",
+    "version": "5069134208",
     "component-id": "91209fc99bb9ac3718456e3824e812de4cf12f48"
   },
   "default": "Inicio",
@@ -78,6 +78,14 @@
       },
       {
         "type": "vector",
+        "id": "botonImagenInicio"
+      },
+      {
+        "type": "vector",
+        "id": "botonContacto"
+      },
+      {
+        "type": "vector",
         "id": "boton3"
       },
       {
@@ -111,6 +119,8 @@
               "Rectangle 11",
               "boton1",
               "boton2",
+              "botonImagenInicio",
+              "botonContacto",
               "boton3",
               "texto",
               "texto1"
@@ -518,6 +528,56 @@
             "vector-content": "boton2.svg"
           },
           {
+            "id": "botonImagenInicio",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "132.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "tap-handler": "$boton_actualidad",
+            "doubletap-handler": "$inicio_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "107.0"
+              }
+            }
+          },
+          {
+            "id": "botonContacto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "300.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "688.0"
+              }
+            },
+            "tap-handler": "$boton_actualidad",
+            "doubletap-handler": "$contacto_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "45.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "47.0"
+              }
+            }
+          },
+          {
             "id": "boton3",
             "alignment": {
               "horizontal": {
@@ -638,6 +698,16 @@
       "description": ""
     },
     "boton_actualidad": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "inicio_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "contacto_button": {
       "data-type": "void-callback",
       "required": false,
       "description": ""
