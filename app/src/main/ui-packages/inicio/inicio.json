@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "q004H5PbPkMvCm4mpQDusZ",
     "node": "193:2",
-    "version": "5069134208",
+    "version": "5077373269",
     "component-id": "91209fc99bb9ac3718456e3824e812de4cf12f48"
   },
   "default": "Inicio",
@@ -136,27 +136,27 @@
             "id": "image 5",
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "360.0"
+                "sizing-mode": "proportional",
+                "value": "1.0"
               },
               "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "800.0"
+                "sizing-mode": "proportional",
+                "value": "1.0"
               }
             },
-            "image-content": "image_5.png",
+            "image-content": "$wallpaper",
             "scale": "cover"
           },
           {
             "id": "Inicio_Actualidad",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "90.0"
+                "attachment": "center",
+                "offset": "-6.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "127.0"
+                "attachment": "center",
+                "offset": "-254.0"
               }
             },
             "size-constraints": {
@@ -186,12 +186,12 @@
             "id": "Inicio_Actualidad1",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "22.0"
+                "attachment": "center",
+                "offset": "-5.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "360.0"
+                "attachment": "center",
+                "offset": "-21.0"
               }
             },
             "size-constraints": {
@@ -220,12 +220,12 @@
             "id": "Inicio_Actualidad2",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "55.0"
+                "attachment": "center",
+                "offset": "-14.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "562.0"
+                "attachment": "center",
+                "offset": "171.0"
               }
             },
             "size-constraints": {
@@ -255,12 +255,12 @@
             "id": "contacto",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "300.0"
+                "attachment": "center",
+                "offset": "145.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "690.0"
+                "attachment": "center",
+                "offset": "312.5"
               }
             },
             "size-constraints": {
@@ -280,12 +280,12 @@
             "id": "image 1",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "10.0"
+                "attachment": "center",
+                "offset": "-2.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "182.0"
+                "attachment": "center",
+                "offset": "-143.0"
               }
             },
             "size-constraints": {
@@ -306,12 +306,12 @@
             "border-radius": "100.0",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "15.0"
+                "attachment": "center",
+                "offset": "-115.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "620.0"
+                "attachment": "center",
+                "offset": "243.0"
               }
             },
             "size-constraints": {
@@ -332,12 +332,12 @@
             "border-radius": "100.0",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "129.0"
+                "attachment": "center",
+                "offset": "-2.6530609130859375"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "620.0"
+                "attachment": "center",
+                "offset": "243.0"
               }
             },
             "size-constraints": {
@@ -358,12 +358,12 @@
             "border-radius": "100.0",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "240.0"
+                "attachment": "center",
+                "offset": "110.92857360839844"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "620.0"
+                "attachment": "center",
+                "offset": "243.0"
               }
             },
             "size-constraints": {
@@ -383,12 +383,12 @@
             "id": "image 25",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "10.0"
+                "attachment": "center",
+                "offset": "-4.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "410.0"
+                "attachment": "center",
+                "offset": "72.5"
               }
             },
             "size-constraints": {
@@ -408,12 +408,12 @@
             "id": "boton_inicio",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "131.0"
+                "attachment": "center",
+                "offset": "1.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "10.0"
+                "attachment": "center",
+                "offset": "-341.0"
               }
             },
             "size-constraints": {
@@ -433,12 +433,12 @@
             "id": "Rectangle 9",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "11.0"
+                "attachment": "center",
+                "offset": "-3.0"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-398.0"
+                "attachment": "center",
+                "offset": "-25.5"
               }
             },
             "size-constraints": {
@@ -457,12 +457,12 @@
             "id": "Rectangle 11",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "11.0"
+                "attachment": "center",
+                "offset": "-3.0"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-195.0"
+                "attachment": "center",
+                "offset": "177.5"
               }
             },
             "size-constraints": {
@@ -481,12 +481,12 @@
             "id": "boton1",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "15.0"
+                "attachment": "center",
+                "offset": "-119.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "124.0"
+                "attachment": "center",
+                "offset": "-258.0"
               }
             },
             "tap-handler": "$boton_review",
@@ -506,12 +506,12 @@
             "id": "boton2",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "126.0"
+                "attachment": "center",
+                "offset": "-5.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "124.0"
+                "attachment": "center",
+                "offset": "-258.0"
               }
             },
             "tap-handler": "$boton_actualidad",
@@ -531,12 +531,12 @@
             "id": "botonImagenInicio",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "132.0"
+                "attachment": "center",
+                "offset": "0.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "0.0"
+                "attachment": "center",
+                "offset": "-346.5"
               }
             },
             "tap-handler": "$boton_actualidad",
@@ -556,12 +556,12 @@
             "id": "botonContacto",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "300.0"
+                "attachment": "center",
+                "offset": "142.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "688.0"
+                "attachment": "center",
+                "offset": "311.5"
               }
             },
             "tap-handler": "$boton_actualidad",
@@ -581,12 +581,12 @@
             "id": "boton3",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "238.0"
+                "attachment": "center",
+                "offset": "113.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "124.0"
+                "attachment": "center",
+                "offset": "-258.0"
               }
             },
             "tap-handler": "$boton_curiosidades",
@@ -606,12 +606,12 @@
             "id": "texto",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "226.0"
+                "attachment": "center",
+                "offset": "113.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "128.0"
+                "attachment": "center",
+                "offset": "-262.5"
               }
             },
             "size-constraints": {
@@ -641,12 +641,12 @@
             "id": "texto1",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "-8.0"
+                "attachment": "center",
+                "offset": "-121.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "128.0"
+                "attachment": "center",
+                "offset": "-262.0"
               }
             },
             "size-constraints": {
@@ -677,6 +677,11 @@
     }
   },
   "parameters": {
+    "wallpaper": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
     "actualidad_text": {
       "data-type": "text",
       "required": false,
@@ -736,6 +741,7 @@
         "height": 800.0
       },
       "parameters": {
+        "wallpaper": "image_5.png",
         "actualidad_text": "Actualidad",
         "content_text_1": "¡El nuevo GTA está a la vuelta de la esquina!",
         "content_text_2": "Reviews más recientes",

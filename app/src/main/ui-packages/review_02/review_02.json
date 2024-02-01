@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "q004H5PbPkMvCm4mpQDusZ",
     "node": "193:27",
-    "version": "4989201977",
+    "version": "5077373269",
     "component-id": "428f1dfb4e41c9d3e279f9087bcd45ef8acc6685"
   },
   "default": "Review_02",
@@ -61,6 +61,26 @@
         "id": "Frame 10"
       },
       {
+        "type": "vector",
+        "id": "botonImagenInicio"
+      },
+      {
+        "type": "vector",
+        "id": "botonContacto"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 4"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 6"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 7"
+      },
+      {
         "type": "group",
         "id": "Frame 5"
       },
@@ -78,23 +98,7 @@
       },
       {
         "type": "image",
-        "id": "image 55"
-      },
-      {
-        "type": "image",
         "id": "image 2"
-      },
-      {
-        "type": "vector",
-        "id": "Rectangle 6"
-      },
-      {
-        "type": "vector",
-        "id": "Rectangle 5"
-      },
-      {
-        "type": "vector",
-        "id": "Rectangle 4"
       },
       {
         "type": "text",
@@ -127,6 +131,11 @@
               "Rectangle 20",
               "Rectangle 19",
               "Frame 10",
+              "botonImagenInicio",
+              "botonContacto",
+              "Rectangle 4",
+              "Rectangle 6",
+              "Rectangle 7",
               "Frame 5"
             ],
             "background-color": {
@@ -140,27 +149,27 @@
             "id": "image 5",
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "360.0"
+                "sizing-mode": "proportional",
+                "value": "1.0"
               },
               "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "803.0"
+                "sizing-mode": "proportional",
+                "value": "1.0"
               }
             },
-            "image-content": "image_5.png",
+            "image-content": "$wallpaper",
             "scale": "cover"
           },
           {
             "id": "image 7",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "310.0"
+                "attachment": "center",
+                "offset": "155.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "1065.0"
+                "attachment": "center",
+                "offset": "490.0"
               }
             },
             "size-constraints": {
@@ -180,12 +189,12 @@
             "id": "image 15",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "10.0"
+                "attachment": "center",
+                "offset": "0.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "180.0"
+                "attachment": "center",
+                "offset": "-312.5"
               }
             },
             "size-constraints": {
@@ -198,19 +207,19 @@
                 "value": "210.0"
               }
             },
-            "image-content": "image_15.png",
+            "image-content": "$image 15 image content",
             "scale": "cover"
           },
           {
             "id": "Inicio_Actualidad",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "26.0"
+                "attachment": "center",
+                "offset": "-1.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "420.0"
+                "attachment": "center",
+                "offset": "-75.5"
               }
             },
             "size-constraints": {
@@ -229,7 +238,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Amantes de los juegos de rol, preparaos: tras más de 20 años de espera y ceder la licencia a otro desarrollador, uno de los RPG más influyentes está de vuelta. Un regreso por todo lo alto que promete fijar nuevos estándares para el género.",
+            "text-content": "$Inicio_Actualidad text content6",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "13.0",
@@ -240,12 +249,12 @@
             "id": "Inicio_Actualidad1",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "28.0"
+                "attachment": "center",
+                "offset": "1.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "774.0"
+                "attachment": "center",
+                "offset": "278.5"
               }
             },
             "size-constraints": {
@@ -264,27 +273,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "annotated-text-content": {
-              "text": "Tras más de 20 años soñando con un nuevo Baldur's Gate, y casi tres en Acceso Anticipado, la espera ha terminado: Baldur's Gate III para PC (jugable en Steam Deck y ROG ALLY) está disponible desde el pasado 3 de agosto, y en poco más de un mes lo estará también para PS5 (XBOX SERIES X|S tendrá que esperar).",
-              "annotated-text-span-list": [
-                {
-                  "span-start": "0",
-                  "span-length": "267"
-                },
-                {
-                  "span-start": "267",
-                  "span-length": "3",
-                  "annotated-text-style": {
-                    "text-size": "13.0",
-                    "underline": "true"
-                  }
-                },
-                {
-                  "span-start": "270",
-                  "span-length": "38"
-                }
-              ]
-            },
+            "annotated-text-content": "$Inicio_Actualidad text content5",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "13.0",
@@ -295,12 +284,12 @@
             "id": "image 41",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "13.0"
+                "attachment": "center",
+                "offset": "0.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "530.0"
+                "attachment": "center",
+                "offset": "38.0"
               }
             },
             "size-constraints": {
@@ -313,19 +302,19 @@
                 "value": "211.0"
               }
             },
-            "image-content": "image_41.png",
+            "image-content": "$image 41 image content",
             "scale": "cover"
           },
           {
             "id": "image 42",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "15.0"
+                "attachment": "center",
+                "offset": "-86.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "924.0"
+                "attachment": "center",
+                "offset": "366.5"
               }
             },
             "size-constraints": {
@@ -338,19 +327,19 @@
                 "value": "80.0"
               }
             },
-            "image-content": "image_42.png",
+            "image-content": "$image 42 image content",
             "scale": "cover"
           },
           {
             "id": "image 43",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "190.0"
+                "attachment": "center",
+                "offset": "85.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "946.0"
+                "attachment": "center",
+                "offset": "365.5"
               }
             },
             "size-constraints": {
@@ -363,19 +352,19 @@
                 "value": "34.0"
               }
             },
-            "image-content": "image_43.png",
+            "image-content": "$image 43 image content",
             "scale": "cover"
           },
           {
             "id": "Rectangle 20",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "16.0"
+                "attachment": "center",
+                "offset": "3.5"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-291.0"
+                "attachment": "center",
+                "offset": "234.5"
               }
             },
             "size-constraints": {
@@ -394,12 +383,12 @@
             "id": "Rectangle 19",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "13.0"
+                "attachment": "center",
+                "offset": "0.5"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-675.0"
+                "attachment": "center",
+                "offset": "-131.0"
               }
             },
             "size-constraints": {
@@ -418,12 +407,12 @@
             "id": "Frame 10",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "12.0"
+                "attachment": "center",
+                "offset": "2.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "1015.0"
+                "attachment": "center",
+                "offset": "437.5"
               }
             },
             "size-constraints": {
@@ -445,15 +434,138 @@
             "clip-content": "false"
           },
           {
+            "id": "botonImagenInicio",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "1.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-542.0"
+              }
+            },
+            "tap-handler": "$inicio_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "107.0"
+              }
+            }
+          },
+          {
+            "id": "botonContacto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "152.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "489.0"
+              }
+            },
+            "tap-handler": "$contacto_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "45.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "47.0"
+              }
+            }
+          },
+          {
+            "id": "Rectangle 4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-119.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-455.5"
+              }
+            },
+            "tap-handler": "$reviews_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "91.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_4.svg"
+          },
+          {
+            "id": "Rectangle 6",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "113.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-455.5"
+              }
+            },
+            "tap-handler": "$curiosidades_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "110.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_6.svg"
+          },
+          {
+            "id": "Rectangle 7",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-5.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-455.5"
+              }
+            },
+            "tap-handler": "$actualidad_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_7.svg"
+          },
+          {
             "id": "Frame 5",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "-8.0"
+                "attachment": "center",
+                "offset": "-4.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "10.0"
+                "attachment": "center",
+                "offset": "-510.0"
               }
             },
             "size-constraints": {
@@ -468,11 +580,7 @@
             },
             "is-structured": "false",
             "children": [
-              "image 55",
               "image 2",
-              "Rectangle 6",
-              "Rectangle 5",
-              "Rectangle 4",
               "Inicio_Actualidad3",
               "Inicio_Actualidad4",
               "Inicio_Actualidad5"
@@ -483,12 +591,12 @@
             "id": "Inicio_Actualidad2",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "8.0"
+                "attachment": "center",
+                "offset": "-70.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "15.0"
+                "attachment": "center",
+                "offset": "7.5"
               }
             },
             "size-constraints": {
@@ -507,7 +615,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Puntuación",
+            "text-content": "$Inicio_Actualidad text content4",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -518,12 +626,12 @@
             "id": "Rectangle 21",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
+                "attachment": "center",
                 "offset": "0.0"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-1.0"
+                "attachment": "center",
+                "offset": "-0.5"
               }
             },
             "size-constraints": {
@@ -542,12 +650,12 @@
             "id": "image 56",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "187.0"
+                "attachment": "center",
+                "offset": "67.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "12.0"
+                "attachment": "center",
+                "offset": "2.5"
               }
             },
             "size-constraints": {
@@ -560,44 +668,19 @@
                 "value": "21.0"
               }
             },
-            "image-content": "image_56.png",
-            "scale": "cover"
-          },
-          {
-            "id": "image 55",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "8.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "-10.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "360.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "161.0"
-              }
-            },
-            "image-content": "image_55.png",
+            "image-content": "$image 56 image content",
             "scale": "cover"
           },
           {
             "id": "image 2",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "139.0"
+                "attachment": "center",
+                "offset": "5.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "0.0"
+                "attachment": "center",
+                "offset": "-28.5"
               }
             },
             "size-constraints": {
@@ -614,87 +697,15 @@
             "scale": "cover"
           },
           {
-            "id": "Rectangle 6",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "246.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "114.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "110.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "36.0"
-              }
-            },
-            "vector-content": "rectangle_6.svg"
-          },
-          {
-            "id": "Rectangle 5",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "134.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "114.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "97.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "36.0"
-              }
-            },
-            "vector-content": "rectangle_5.svg"
-          },
-          {
-            "id": "Rectangle 4",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "23.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "114.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "91.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "36.0"
-              }
-            },
-            "vector-content": "rectangle_4.svg"
-          },
-          {
             "id": "Inicio_Actualidad3",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "0.0"
+                "attachment": "center",
+                "offset": "-117.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "118.0"
+                "attachment": "center",
+                "offset": "50.5"
               }
             },
             "size-constraints": {
@@ -713,7 +724,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Reviews",
+            "text-content": "$Inicio_Actualidad text content3",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -724,12 +735,12 @@
             "id": "Inicio_Actualidad4",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "234.0"
+                "attachment": "center",
+                "offset": "117.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "118.0"
+                "attachment": "center",
+                "offset": "50.0"
               }
             },
             "size-constraints": {
@@ -748,7 +759,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Curiosidades\n",
+            "text-content": "$Inicio_Actualidad text content2",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -759,12 +770,12 @@
             "id": "Inicio_Actualidad5",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "98.0"
+                "attachment": "center",
+                "offset": "-2.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "117.0"
+                "attachment": "center",
+                "offset": "58.5"
               }
             },
             "size-constraints": {
@@ -783,7 +794,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Actualidad",
+            "text-content": "$Inicio_Actualidad text content",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -794,12 +805,133 @@
       }
     }
   },
+  "parameters": {
+    "wallpaper": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "image 15 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content6": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content5": {
+      "data-type": "annotated-text-content",
+      "required": false,
+      "description": ""
+    },
+    "image 41 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "image 42 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "image 43 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "inicio_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "contacto_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "reviews_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "curiosidades_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "actualidad_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content4": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "image 56 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content3": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content2": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
   "previews": [
     {
       "design": "Review_02",
       "size": {
         "width": 360.0,
         "height": 1195.0
+      },
+      "parameters": {
+        "wallpaper": "image_5.png",
+        "image 15 image content": "image_15.png",
+        "Inicio_Actualidad text content6": "Amantes de los juegos de rol, preparaos: tras más de 20 años de espera y ceder la licencia a otro desarrollador, uno de los RPG más influyentes está de vuelta. Un regreso por todo lo alto que promete fijar nuevos estándares para el género.",
+        "Inicio_Actualidad text content5": {
+          "text": "Tras más de 20 años soñando con un nuevo Baldur's Gate, y casi tres en Acceso Anticipado, la espera ha terminado: Baldur's Gate III para PC (jugable en Steam Deck y ROG ALLY) está disponible desde el pasado 3 de agosto, y en poco más de un mes lo estará también para PS5 (XBOX SERIES X|S tendrá que esperar).",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 267
+            },
+            {
+              "span-start": 267,
+              "span-length": 3,
+              "annotated-text-style": {
+                "text-size": 13.0,
+                "underline": true
+              }
+            },
+            {
+              "span-start": 270,
+              "span-length": 38
+            }
+          ]
+        },
+        "image 41 image content": "image_41.png",
+        "image 42 image content": "image_42.png",
+        "image 43 image content": "image_43.png",
+        "Inicio_Actualidad text content4": "Puntuación",
+        "image 56 image content": "image_56.png",
+        "Inicio_Actualidad text content3": "Reviews",
+        "Inicio_Actualidad text content2": "Curiosidades\n",
+        "Inicio_Actualidad text content": "Actualidad"
       }
     }
   ],

@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "q004H5PbPkMvCm4mpQDusZ",
     "node": "193:26",
-    "version": "5069134208",
+    "version": "5077373269",
     "component-id": "59a436f27409f7b4613935aa53f07d9d64e37a4b"
   },
   "default": "Contacto",
@@ -131,27 +131,27 @@
             "id": "image 5",
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "360.0"
+                "sizing-mode": "proportional",
+                "value": "1.0"
               },
               "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "800.0"
+                "sizing-mode": "proportional",
+                "value": "1.0"
               }
             },
-            "image-content": "image_5.png",
+            "image-content": "$wallpaper",
             "scale": "cover"
           },
           {
             "id": "image 2",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "131.0"
+                "attachment": "center",
+                "offset": "1.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "10.0"
+                "attachment": "center",
+                "offset": "-341.0"
               }
             },
             "size-constraints": {
@@ -171,12 +171,12 @@
             "id": "image 30",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "58.0"
+                "attachment": "center",
+                "offset": "-91.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "310.0"
+                "attachment": "center",
+                "offset": "-60.0"
               }
             },
             "size-constraints": {
@@ -196,12 +196,12 @@
             "id": "image 31",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "230.0"
+                "attachment": "center",
+                "offset": "81.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "313.0"
+                "attachment": "center",
+                "offset": "-59.5"
               }
             },
             "size-constraints": {
@@ -221,12 +221,12 @@
             "id": "image 32",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "54.0"
+                "attachment": "center",
+                "offset": "-91.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "478.0"
+                "attachment": "center",
+                "offset": "99.0"
               }
             },
             "size-constraints": {
@@ -246,12 +246,12 @@
             "id": "image 33",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "232.0"
+                "attachment": "center",
+                "offset": "82.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "475.0"
+                "attachment": "center",
+                "offset": "97.5"
               }
             },
             "size-constraints": {
@@ -271,12 +271,12 @@
             "id": "Inicio_Actualidad",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "32.0"
+                "attachment": "center",
+                "offset": "-91.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "384.0"
+                "attachment": "center",
+                "offset": "-6.0"
               }
             },
             "size-constraints": {
@@ -306,12 +306,12 @@
             "id": "Inicio_Actualidad1",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "205.0"
+                "attachment": "center",
+                "offset": "81.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "384.0"
+                "attachment": "center",
+                "offset": "-6.0"
               }
             },
             "size-constraints": {
@@ -341,12 +341,12 @@
             "id": "Inicio_Actualidad2",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "190.0"
+                "attachment": "center",
+                "offset": "85.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "536.0"
+                "attachment": "center",
+                "offset": "146.0"
               }
             },
             "size-constraints": {
@@ -376,12 +376,12 @@
             "id": "Inicio_Actualidad3",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "33.0"
+                "attachment": "center",
+                "offset": "-90.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "536.0"
+                "attachment": "center",
+                "offset": "146.0"
               }
             },
             "size-constraints": {
@@ -411,12 +411,12 @@
             "id": "image 7",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "300.0"
+                "attachment": "center",
+                "offset": "145.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "690.0"
+                "attachment": "center",
+                "offset": "312.5"
               }
             },
             "size-constraints": {
@@ -436,12 +436,12 @@
             "id": "Rectangle 6",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "238.0"
+                "attachment": "center",
+                "offset": "113.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "124.0"
+                "attachment": "center",
+                "offset": "-258.0"
               }
             },
             "tap-handler": "$curiosidades_button",
@@ -461,12 +461,12 @@
             "id": "Inicio_Actualidad4",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "90.0"
+                "attachment": "center",
+                "offset": "-6.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "127.0"
+                "attachment": "center",
+                "offset": "-254.0"
               }
             },
             "size-constraints": {
@@ -496,12 +496,12 @@
             "id": "Rectangle 7",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "126.0"
+                "attachment": "center",
+                "offset": "-5.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "124.0"
+                "attachment": "center",
+                "offset": "-258.0"
               }
             },
             "tap-handler": "$actualidad_button",
@@ -521,12 +521,12 @@
             "id": "Inicio_Actualidad5",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "226.0"
+                "attachment": "center",
+                "offset": "113.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "128.0"
+                "attachment": "center",
+                "offset": "-262.5"
               }
             },
             "size-constraints": {
@@ -556,12 +556,12 @@
             "id": "Inicio_Actualidad6",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "-8.0"
+                "attachment": "center",
+                "offset": "-121.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "128.0"
+                "attachment": "center",
+                "offset": "-262.0"
               }
             },
             "size-constraints": {
@@ -591,12 +591,12 @@
             "id": "Rectangle 4",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "15.0"
+                "attachment": "center",
+                "offset": "-119.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "124.0"
+                "attachment": "center",
+                "offset": "-258.0"
               }
             },
             "tap-handler": "$reviews_button",
@@ -616,12 +616,12 @@
             "id": "botonContacto",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "300.0"
+                "attachment": "center",
+                "offset": "142.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "688.0"
+                "attachment": "center",
+                "offset": "311.5"
               }
             },
             "tap-handler": "$contacto_button",
@@ -640,12 +640,12 @@
             "id": "botonImagenInicio",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "132.0"
+                "attachment": "center",
+                "offset": "1.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "0.0"
+                "attachment": "center",
+                "offset": "-344.5"
               }
             },
             "tap-handler": "$inicio_button",
@@ -665,6 +665,11 @@
     }
   },
   "parameters": {
+    "wallpaper": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
     "Inicio_Actualidad text content": {
       "data-type": "text",
       "required": false,
@@ -734,6 +739,7 @@
         "height": 800.0
       },
       "parameters": {
+        "wallpaper": "image_5.png",
         "Inicio_Actualidad text content": "@GameOn",
         "Inicio_Actualidad text content2": "@GameOn",
         "Inicio_Actualidad text content3": "gameon@gmail.com",

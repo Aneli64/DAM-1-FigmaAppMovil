@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "q004H5PbPkMvCm4mpQDusZ",
     "node": "193:28",
-    "version": "4989201977",
+    "version": "5077373269",
     "component-id": "a5913eed4b58abdf4ac2b8d55faca8292f4d09e5"
   },
   "default": "Review_04",
@@ -53,6 +53,26 @@
         "id": "image 47"
       },
       {
+        "type": "vector",
+        "id": "botonImagenInicio"
+      },
+      {
+        "type": "vector",
+        "id": "botonContacto"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 4"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 6"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 7"
+      },
+      {
         "type": "group",
         "id": "Frame 7"
       },
@@ -70,10 +90,6 @@
       },
       {
         "type": "image",
-        "id": "image 54"
-      },
-      {
-        "type": "image",
         "id": "image 2"
       },
       {
@@ -87,18 +103,6 @@
       {
         "type": "text",
         "id": "Inicio_Actualidad5"
-      },
-      {
-        "type": "vector",
-        "id": "Rectangle 6"
-      },
-      {
-        "type": "vector",
-        "id": "Rectangle 5"
-      },
-      {
-        "type": "vector",
-        "id": "Rectangle 4"
       }
     ],
     "modes": {
@@ -117,6 +121,11 @@
               "Inicio_Actualidad1",
               "image 7",
               "image 47",
+              "botonImagenInicio",
+              "botonContacto",
+              "Rectangle 4",
+              "Rectangle 6",
+              "Rectangle 7",
               "Frame 7"
             ],
             "background-color": {
@@ -128,29 +137,39 @@
           },
           {
             "id": "image 17",
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "364.0"
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "4.0"
               },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "800.0"
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
               }
             },
-            "image-content": "image_17.png",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "$wallpaper",
             "scale": "cover"
           },
           {
             "id": "Frame 10",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "12.0"
+                "attachment": "center",
+                "offset": "2.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "1015.0"
+                "attachment": "center",
+                "offset": "437.5"
               }
             },
             "size-constraints": {
@@ -175,12 +194,12 @@
             "id": "Rectangle 20",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "16.0"
+                "attachment": "center",
+                "offset": "3.5"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-666.0"
+                "attachment": "center",
+                "offset": "-126.0"
               }
             },
             "size-constraints": {
@@ -199,12 +218,12 @@
             "id": "Rectangle 21",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "13.0"
+                "attachment": "center",
+                "offset": "0.5"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-279.0"
+                "attachment": "center",
+                "offset": "245.5"
               }
             },
             "size-constraints": {
@@ -223,12 +242,12 @@
             "id": "image 18",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "10.0"
+                "attachment": "center",
+                "offset": "0.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "180.0"
+                "attachment": "center",
+                "offset": "-312.5"
               }
             },
             "size-constraints": {
@@ -241,19 +260,19 @@
                 "value": "210.0"
               }
             },
-            "image-content": "image_18.png",
+            "image-content": "$image 17 image content",
             "scale": "cover"
           },
           {
             "id": "Inicio_Actualidad",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "25.0"
+                "attachment": "center",
+                "offset": "-2.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "436.0"
+                "attachment": "center",
+                "offset": "-59.5"
               }
             },
             "size-constraints": {
@@ -272,7 +291,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Ahora son ambos, Peter y Miles, los que unen fuerzas frente a una nueva amenaza. Hacer una secuela no es sencillo, y Spider-Man 2 arriesga lo justo para poder mantenerse fresco e interesante.",
+            "text-content": "$Inicio_Actualidad text content5",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "13.0",
@@ -283,12 +302,12 @@
             "id": "Inicio_Actualidad1",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "31.0"
+                "attachment": "center",
+                "offset": "-0.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "796.0"
+                "attachment": "center",
+                "offset": "258.5"
               }
             },
             "size-constraints": {
@@ -307,7 +326,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": " El mismo escepticismo me recorría el cuerpo cuando cogí por banda God of War Ragnarok, y de aquella experiencia salí más que satisfecho con lo que Santa Mónica acabó forjando. En Spider-Man 2 no hay nueve reinos, solo hay uno, y está en peligro.",
+            "text-content": "$Inicio_Actualidad text content4",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "13.0",
@@ -318,12 +337,12 @@
             "id": "image 7",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "310.0"
+                "attachment": "center",
+                "offset": "155.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "1065.0"
+                "attachment": "center",
+                "offset": "490.0"
               }
             },
             "size-constraints": {
@@ -343,12 +362,12 @@
             "id": "image 47",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "41.0"
+                "attachment": "center",
+                "offset": "0.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "580.0"
+                "attachment": "center",
+                "offset": "57.5"
               }
             },
             "size-constraints": {
@@ -361,19 +380,142 @@
                 "value": "150.0"
               }
             },
-            "image-content": "image_47.png",
+            "image-content": "$image 47 image content",
             "scale": "cover"
+          },
+          {
+            "id": "botonImagenInicio",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "1.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-542.0"
+              }
+            },
+            "tap-handler": "$inicio_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "107.0"
+              }
+            }
+          },
+          {
+            "id": "botonContacto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "152.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "489.0"
+              }
+            },
+            "tap-handler": "$contacto_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "45.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "47.0"
+              }
+            }
+          },
+          {
+            "id": "Rectangle 4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-119.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-455.5"
+              }
+            },
+            "tap-handler": "$reviews_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "91.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_4.svg"
+          },
+          {
+            "id": "Rectangle 6",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "113.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-455.5"
+              }
+            },
+            "tap-handler": "$curiosidades_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "110.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_6.svg"
+          },
+          {
+            "id": "Rectangle 7",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-5.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-455.5"
+              }
+            },
+            "tap-handler": "$actualidad_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_7.svg"
           },
           {
             "id": "Frame 7",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "-8.0"
+                "attachment": "center",
+                "offset": "-4.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "10.0"
+                "attachment": "center",
+                "offset": "-510.0"
               }
             },
             "size-constraints": {
@@ -388,14 +530,10 @@
             },
             "is-structured": "false",
             "children": [
-              "image 54",
               "image 2",
               "Inicio_Actualidad3",
               "Inicio_Actualidad4",
-              "Inicio_Actualidad5",
-              "Rectangle 6",
-              "Rectangle 5",
-              "Rectangle 4"
+              "Inicio_Actualidad5"
             ],
             "clip-content": "false"
           },
@@ -403,12 +541,12 @@
             "id": "Inicio_Actualidad2",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "8.0"
+                "attachment": "center",
+                "offset": "-70.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "15.0"
+                "attachment": "center",
+                "offset": "7.5"
               }
             },
             "size-constraints": {
@@ -427,7 +565,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Puntuación",
+            "text-content": "$Inicio_Actualidad text content6",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -438,12 +576,12 @@
             "id": "Rectangle 22",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
+                "attachment": "center",
                 "offset": "0.0"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-1.0"
+                "attachment": "center",
+                "offset": "-0.5"
               }
             },
             "size-constraints": {
@@ -462,12 +600,12 @@
             "id": "image 56",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "187.0"
+                "attachment": "center",
+                "offset": "67.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "12.0"
+                "attachment": "center",
+                "offset": "2.5"
               }
             },
             "size-constraints": {
@@ -480,44 +618,19 @@
                 "value": "21.0"
               }
             },
-            "image-content": "image_56.png",
-            "scale": "cover"
-          },
-          {
-            "id": "image 54",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "8.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "-10.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "360.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "161.0"
-              }
-            },
-            "image-content": "image_54.png",
+            "image-content": "$image 56 image content",
             "scale": "cover"
           },
           {
             "id": "image 2",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "139.0"
+                "attachment": "center",
+                "offset": "5.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "0.0"
+                "attachment": "center",
+                "offset": "-28.5"
               }
             },
             "size-constraints": {
@@ -537,12 +650,12 @@
             "id": "Inicio_Actualidad3",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "0.0"
+                "attachment": "center",
+                "offset": "-117.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "118.0"
+                "attachment": "center",
+                "offset": "50.5"
               }
             },
             "size-constraints": {
@@ -561,7 +674,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Reviews",
+            "text-content": "$Inicio_Actualidad text content3",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -572,12 +685,12 @@
             "id": "Inicio_Actualidad4",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "98.0"
+                "attachment": "center",
+                "offset": "-2.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "117.0"
+                "attachment": "center",
+                "offset": "58.5"
               }
             },
             "size-constraints": {
@@ -596,7 +709,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Actualidad",
+            "text-content": "$Inicio_Actualidad text content2",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -607,12 +720,12 @@
             "id": "Inicio_Actualidad5",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "234.0"
+                "attachment": "center",
+                "offset": "117.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "118.0"
+                "attachment": "center",
+                "offset": "50.0"
               }
             },
             "size-constraints": {
@@ -631,87 +744,92 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Curiosidades\n",
+            "text-content": "$Inicio_Actualidad text content",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
             "line-height": "1.2102272510528564",
             "typeface": "Inter"
-          },
-          {
-            "id": "Rectangle 6",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "246.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "114.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "110.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "36.0"
-              }
-            },
-            "vector-content": "rectangle_6.svg"
-          },
-          {
-            "id": "Rectangle 5",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "134.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "114.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "97.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "36.0"
-              }
-            },
-            "vector-content": "rectangle_5.svg"
-          },
-          {
-            "id": "Rectangle 4",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "23.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "114.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "91.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "36.0"
-              }
-            },
-            "vector-content": "rectangle_4.svg"
           }
         ]
       }
+    }
+  },
+  "parameters": {
+    "wallpaper": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "image 17 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content5": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content4": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "image 47 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "inicio_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "contacto_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "reviews_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "curiosidades_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "actualidad_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content6": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "image 56 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content3": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content2": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
     }
   },
   "previews": [
@@ -720,6 +838,18 @@
       "size": {
         "width": 360.0,
         "height": 1195.0
+      },
+      "parameters": {
+        "wallpaper": "image_17.png",
+        "image 17 image content": "image_18.png",
+        "Inicio_Actualidad text content5": "Ahora son ambos, Peter y Miles, los que unen fuerzas frente a una nueva amenaza. Hacer una secuela no es sencillo, y Spider-Man 2 arriesga lo justo para poder mantenerse fresco e interesante.",
+        "Inicio_Actualidad text content4": " El mismo escepticismo me recorría el cuerpo cuando cogí por banda God of War Ragnarok, y de aquella experiencia salí más que satisfecho con lo que Santa Mónica acabó forjando. En Spider-Man 2 no hay nueve reinos, solo hay uno, y está en peligro.",
+        "image 47 image content": "image_47.png",
+        "Inicio_Actualidad text content6": "Puntuación",
+        "image 56 image content": "image_56.png",
+        "Inicio_Actualidad text content3": "Reviews",
+        "Inicio_Actualidad text content2": "Actualidad",
+        "Inicio_Actualidad text content": "Curiosidades\n"
       }
     }
   ],

@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "q004H5PbPkMvCm4mpQDusZ",
     "node": "193:29",
-    "version": "4989201977",
+    "version": "5077373269",
     "component-id": "0eb6ed209736dd5feb68e7f8ff42cc78343ddc71"
   },
   "default": "Review_06",
@@ -57,6 +57,26 @@
         "id": "Frame 10"
       },
       {
+        "type": "vector",
+        "id": "botonImagenInicio"
+      },
+      {
+        "type": "vector",
+        "id": "botonContacto"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 4"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 6"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 7"
+      },
+      {
         "type": "group",
         "id": "Frame 9"
       },
@@ -74,10 +94,6 @@
       },
       {
         "type": "image",
-        "id": "image 55"
-      },
-      {
-        "type": "image",
         "id": "image 2"
       },
       {
@@ -91,18 +107,6 @@
       {
         "type": "text",
         "id": "Inicio_Actualidad5"
-      },
-      {
-        "type": "vector",
-        "id": "Rectangle 5"
-      },
-      {
-        "type": "vector",
-        "id": "Rectangle 6"
-      },
-      {
-        "type": "vector",
-        "id": "Rectangle 4"
       }
     ],
     "modes": {
@@ -122,6 +126,11 @@
               "Inicio_Actualidad1",
               "image 52",
               "Frame 10",
+              "botonImagenInicio",
+              "botonContacto",
+              "Rectangle 4",
+              "Rectangle 6",
+              "Rectangle 7",
               "Frame 9"
             ],
             "background-color": {
@@ -135,27 +144,27 @@
             "id": "image 5",
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "360.0"
+                "sizing-mode": "proportional",
+                "value": "1.0"
               },
               "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "800.0"
+                "sizing-mode": "proportional",
+                "value": "1.0"
               }
             },
-            "image-content": "image_5.png",
+            "image-content": "$wallpaper",
             "scale": "cover"
           },
           {
             "id": "image 19",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "10.0"
+                "attachment": "center",
+                "offset": "0.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "180.0"
+                "attachment": "center",
+                "offset": "-312.5"
               }
             },
             "size-constraints": {
@@ -168,19 +177,19 @@
                 "value": "210.0"
               }
             },
-            "image-content": "image_19.png",
+            "image-content": "$image 19 image content",
             "scale": "cover"
           },
           {
             "id": "Inicio_Actualidad",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "27.0"
+                "attachment": "center",
+                "offset": "0.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "883.0"
+                "attachment": "center",
+                "offset": "340.5"
               }
             },
             "size-constraints": {
@@ -199,7 +208,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "No exactamente igual al juego que ya nos voló la cabeza hace casi 20 años, sino marcando las nuevas pautas a seguir de cara a los Survival Horror venideros mientras se revitalizar la gloria y la transgresión del original. Doble desafío superado con triple acierto.",
+            "text-content": "$Inicio_Actualidad text content6",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "13.0",
@@ -210,12 +219,12 @@
             "id": "image 7",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "310.0"
+                "attachment": "center",
+                "offset": "155.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "1065.0"
+                "attachment": "center",
+                "offset": "490.0"
               }
             },
             "size-constraints": {
@@ -235,12 +244,12 @@
             "id": "image 51",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "10.0"
+                "attachment": "center",
+                "offset": "0.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "543.0"
+                "attachment": "center",
+                "offset": "47.0"
               }
             },
             "size-constraints": {
@@ -253,19 +262,19 @@
                 "value": "203.0"
               }
             },
-            "image-content": "image_51.png",
+            "image-content": "$image 51 image content",
             "scale": "cover"
           },
           {
             "id": "Rectangle 20",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "14.0"
+                "attachment": "center",
+                "offset": "1.5"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-675.0"
+                "attachment": "center",
+                "offset": "-135.0"
               }
             },
             "size-constraints": {
@@ -284,12 +293,12 @@
             "id": "Rectangle 21",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "12.0"
+                "attachment": "center",
+                "offset": "-0.5"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-207.0"
+                "attachment": "center",
+                "offset": "330.5"
               }
             },
             "size-constraints": {
@@ -308,12 +317,12 @@
             "id": "Inicio_Actualidad1",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "27.0"
+                "attachment": "center",
+                "offset": "0.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "412.0"
+                "attachment": "center",
+                "offset": "-130.5"
               }
             },
             "size-constraints": {
@@ -332,7 +341,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Ni sustitos, ni clichés del cine de zombis: el remake de Resident Evil 4, reivindica por todo lo alto el terror más visceral, abraza la barbarie rural más explícita, enriquece genuinamente a toda la saga y recurre a la destrucción épica como gran broche a sus momentos clave.",
+            "text-content": "$Inicio_Actualidad text content5",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "13.0",
@@ -343,12 +352,12 @@
             "id": "image 52",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "132.0"
+                "attachment": "center",
+                "offset": "2.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "775.0"
+                "attachment": "center",
+                "offset": "217.5"
               }
             },
             "size-constraints": {
@@ -361,19 +370,19 @@
                 "value": "80.0"
               }
             },
-            "image-content": "image_52.png",
+            "image-content": "$image 52 image content",
             "scale": "cover"
           },
           {
             "id": "Frame 10",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "12.0"
+                "attachment": "center",
+                "offset": "2.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "1015.0"
+                "attachment": "center",
+                "offset": "437.5"
               }
             },
             "size-constraints": {
@@ -395,15 +404,138 @@
             "clip-content": "false"
           },
           {
+            "id": "botonImagenInicio",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "1.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-542.0"
+              }
+            },
+            "tap-handler": "$inicio_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "107.0"
+              }
+            }
+          },
+          {
+            "id": "botonContacto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "152.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "489.0"
+              }
+            },
+            "tap-handler": "$contacto_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "45.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "47.0"
+              }
+            }
+          },
+          {
+            "id": "Rectangle 4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-119.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-455.5"
+              }
+            },
+            "tap-handler": "$reviews_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "91.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_4.svg"
+          },
+          {
+            "id": "Rectangle 6",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "113.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-455.5"
+              }
+            },
+            "tap-handler": "$curiosidades_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "110.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_6.svg"
+          },
+          {
+            "id": "Rectangle 7",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-5.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-455.5"
+              }
+            },
+            "tap-handler": "$actualidad_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_7.svg"
+          },
+          {
             "id": "Frame 9",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "-8.0"
+                "attachment": "center",
+                "offset": "-4.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "10.0"
+                "attachment": "center",
+                "offset": "-510.0"
               }
             },
             "size-constraints": {
@@ -418,14 +550,10 @@
             },
             "is-structured": "false",
             "children": [
-              "image 55",
               "image 2",
               "Inicio_Actualidad3",
               "Inicio_Actualidad4",
-              "Inicio_Actualidad5",
-              "Rectangle 5",
-              "Rectangle 6",
-              "Rectangle 4"
+              "Inicio_Actualidad5"
             ],
             "clip-content": "false"
           },
@@ -433,12 +561,12 @@
             "id": "Inicio_Actualidad2",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "8.0"
+                "attachment": "center",
+                "offset": "-70.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "15.0"
+                "attachment": "center",
+                "offset": "7.5"
               }
             },
             "size-constraints": {
@@ -457,7 +585,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Puntuación",
+            "text-content": "$Inicio_Actualidad text content4",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -468,12 +596,12 @@
             "id": "Rectangle 22",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
+                "attachment": "center",
                 "offset": "0.0"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-1.0"
+                "attachment": "center",
+                "offset": "-0.5"
               }
             },
             "size-constraints": {
@@ -492,12 +620,12 @@
             "id": "image 56",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "187.0"
+                "attachment": "center",
+                "offset": "67.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "12.0"
+                "attachment": "center",
+                "offset": "2.5"
               }
             },
             "size-constraints": {
@@ -510,44 +638,19 @@
                 "value": "21.0"
               }
             },
-            "image-content": "image_56.png",
-            "scale": "cover"
-          },
-          {
-            "id": "image 55",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "8.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "-10.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "360.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "161.0"
-              }
-            },
-            "image-content": "image_55.png",
+            "image-content": "$image 56 image content",
             "scale": "cover"
           },
           {
             "id": "image 2",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "139.0"
+                "attachment": "center",
+                "offset": "5.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "0.0"
+                "attachment": "center",
+                "offset": "-28.5"
               }
             },
             "size-constraints": {
@@ -567,12 +670,12 @@
             "id": "Inicio_Actualidad3",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "0.0"
+                "attachment": "center",
+                "offset": "-117.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "118.0"
+                "attachment": "center",
+                "offset": "50.5"
               }
             },
             "size-constraints": {
@@ -591,7 +694,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Reviews",
+            "text-content": "$Inicio_Actualidad text content3",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -602,12 +705,12 @@
             "id": "Inicio_Actualidad4",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "98.0"
+                "attachment": "center",
+                "offset": "-2.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "117.0"
+                "attachment": "center",
+                "offset": "58.5"
               }
             },
             "size-constraints": {
@@ -626,7 +729,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Actualidad",
+            "text-content": "$Inicio_Actualidad text content2",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -637,12 +740,12 @@
             "id": "Inicio_Actualidad5",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "234.0"
+                "attachment": "center",
+                "offset": "117.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "118.0"
+                "attachment": "center",
+                "offset": "50.0"
               }
             },
             "size-constraints": {
@@ -661,87 +764,97 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Curiosidades\n",
+            "text-content": "$Inicio_Actualidad text content",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
             "line-height": "1.2102272510528564",
             "typeface": "Inter"
-          },
-          {
-            "id": "Rectangle 5",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "134.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "114.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "97.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "36.0"
-              }
-            },
-            "vector-content": "rectangle_5.svg"
-          },
-          {
-            "id": "Rectangle 6",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "246.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "114.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "110.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "36.0"
-              }
-            },
-            "vector-content": "rectangle_6.svg"
-          },
-          {
-            "id": "Rectangle 4",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "23.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "114.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "91.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "36.0"
-              }
-            },
-            "vector-content": "rectangle_4.svg"
           }
         ]
       }
+    }
+  },
+  "parameters": {
+    "wallpaper": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "image 19 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content6": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "image 51 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content5": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "image 52 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "inicio_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "contacto_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "reviews_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "curiosidades_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "actualidad_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content4": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "image 56 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content3": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content2": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
     }
   },
   "previews": [
@@ -750,6 +863,19 @@
       "size": {
         "width": 360.0,
         "height": 1195.0
+      },
+      "parameters": {
+        "wallpaper": "image_5.png",
+        "image 19 image content": "image_19.png",
+        "Inicio_Actualidad text content6": "No exactamente igual al juego que ya nos voló la cabeza hace casi 20 años, sino marcando las nuevas pautas a seguir de cara a los Survival Horror venideros mientras se revitalizar la gloria y la transgresión del original. Doble desafío superado con triple acierto.",
+        "image 51 image content": "image_51.png",
+        "Inicio_Actualidad text content5": "Ni sustitos, ni clichés del cine de zombis: el remake de Resident Evil 4, reivindica por todo lo alto el terror más visceral, abraza la barbarie rural más explícita, enriquece genuinamente a toda la saga y recurre a la destrucción épica como gran broche a sus momentos clave.",
+        "image 52 image content": "image_52.png",
+        "Inicio_Actualidad text content4": "Puntuación",
+        "image 56 image content": "image_56.png",
+        "Inicio_Actualidad text content3": "Reviews",
+        "Inicio_Actualidad text content2": "Actualidad",
+        "Inicio_Actualidad text content": "Curiosidades\n"
       }
     }
   ],

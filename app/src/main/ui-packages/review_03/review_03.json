@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "q004H5PbPkMvCm4mpQDusZ",
     "node": "193:35",
-    "version": "4989201977",
+    "version": "5077373269",
     "component-id": "37df895d425b38a626b9ef67ff2601be324b1983"
   },
   "default": "Review_03",
@@ -61,6 +61,26 @@
         "id": "Frame 10"
       },
       {
+        "type": "vector",
+        "id": "botonImagenInicio"
+      },
+      {
+        "type": "vector",
+        "id": "botonContacto"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 4"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 6"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 7"
+      },
+      {
         "type": "group",
         "id": "Frame 6"
       },
@@ -78,23 +98,7 @@
       },
       {
         "type": "image",
-        "id": "image 54"
-      },
-      {
-        "type": "image",
         "id": "image 2"
-      },
-      {
-        "type": "vector",
-        "id": "Rectangle 6"
-      },
-      {
-        "type": "vector",
-        "id": "Rectangle 5"
-      },
-      {
-        "type": "vector",
-        "id": "Rectangle 4"
       },
       {
         "type": "text",
@@ -127,6 +131,11 @@
               "image 46",
               "Rectangle 20",
               "Frame 10",
+              "botonImagenInicio",
+              "botonContacto",
+              "Rectangle 4",
+              "Rectangle 6",
+              "Rectangle 7",
               "Frame 6"
             ],
             "background-color": {
@@ -138,29 +147,39 @@
           },
           {
             "id": "image 9",
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "364.0"
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "4.0"
               },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "801.0"
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
               }
             },
-            "image-content": "image_9.png",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "$wallpaper",
             "scale": "cover"
           },
           {
             "id": "Rectangle 19",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "13.0"
+                "attachment": "center",
+                "offset": "0.5"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-685.0"
+                "attachment": "center",
+                "offset": "-136.0"
               }
             },
             "size-constraints": {
@@ -179,12 +198,12 @@
             "id": "image 16",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "12.0"
+                "attachment": "center",
+                "offset": "1.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "180.0"
+                "attachment": "center",
+                "offset": "-312.5"
               }
             },
             "size-constraints": {
@@ -197,19 +216,19 @@
                 "value": "210.0"
               }
             },
-            "image-content": "image_16.png",
+            "image-content": "$image 16 image content",
             "scale": "cover"
           },
           {
             "id": "Inicio_Actualidad",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "24.0"
+                "attachment": "center",
+                "offset": "-0.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "419.0"
+                "attachment": "center",
+                "offset": "-133.0"
               }
             },
             "size-constraints": {
@@ -228,7 +247,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Super Mario Bros. Wonder es el culmen de todas las lecciones aprendidas entre la NES y Switch. El legítimo heredero de obras maestras de la Nintendo de toda la vida. Dando amplio margen a todo lo que ya te gusta.",
+            "text-content": "$Inicio_Actualidad text content6",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "13.0",
@@ -239,12 +258,12 @@
             "id": "Inicio_Actualidad1",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "25.0"
+                "attachment": "center",
+                "offset": "-2.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "740.0"
+                "attachment": "center",
+                "offset": "181.5"
               }
             },
             "size-constraints": {
@@ -263,7 +282,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Revalidándolo sin sacarte jamás de esa zona de confort que son los juegos con el sello de calidad de la gran N. Y, a partir de ahí, busca sorprenderte. Y lo logra. ¡Vaya si lo logra!",
+            "text-content": "$Inicio_Actualidad text content5",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "13.0",
@@ -274,12 +293,12 @@
             "id": "image 7",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "310.0"
+                "attachment": "center",
+                "offset": "155.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "1065.0"
+                "attachment": "center",
+                "offset": "490.0"
               }
             },
             "size-constraints": {
@@ -299,12 +318,12 @@
             "id": "image 44",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "12.0"
+                "attachment": "center",
+                "offset": "-0.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "540.0"
+                "attachment": "center",
+                "offset": "26.5"
               }
             },
             "size-constraints": {
@@ -317,19 +336,19 @@
                 "value": "168.0"
               }
             },
-            "image-content": "image_44.png",
+            "image-content": "$image 44 image content",
             "scale": "cover"
           },
           {
             "id": "image 45",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "17.0"
+                "attachment": "center",
+                "offset": "-64.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "860.0"
+                "attachment": "center",
+                "offset": "292.5"
               }
             },
             "size-constraints": {
@@ -342,19 +361,19 @@
                 "value": "60.0"
               }
             },
-            "image-content": "image_45.png",
+            "image-content": "$image 45 image content",
             "scale": "cover"
           },
           {
             "id": "image 46",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "185.0"
+                "attachment": "center",
+                "offset": "75.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "840.0"
+                "attachment": "center",
+                "offset": "312.5"
               }
             },
             "size-constraints": {
@@ -367,19 +386,19 @@
                 "value": "140.0"
               }
             },
-            "image-content": "image_46.png",
+            "image-content": "$image 46 image content",
             "scale": "cover"
           },
           {
             "id": "Rectangle 20",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "12.0"
+                "attachment": "center",
+                "offset": "-0.5"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-375.0"
+                "attachment": "center",
+                "offset": "176.5"
               }
             },
             "size-constraints": {
@@ -398,12 +417,12 @@
             "id": "Frame 10",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "12.0"
+                "attachment": "center",
+                "offset": "2.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "1015.0"
+                "attachment": "center",
+                "offset": "437.5"
               }
             },
             "size-constraints": {
@@ -425,15 +444,138 @@
             "clip-content": "false"
           },
           {
+            "id": "botonImagenInicio",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "1.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-542.0"
+              }
+            },
+            "tap-handler": "$inicio_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "107.0"
+              }
+            }
+          },
+          {
+            "id": "botonContacto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "152.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "489.0"
+              }
+            },
+            "tap-handler": "$contacto_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "45.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "47.0"
+              }
+            }
+          },
+          {
+            "id": "Rectangle 4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-119.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-455.5"
+              }
+            },
+            "tap-handler": "$reviews_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "91.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_4.svg"
+          },
+          {
+            "id": "Rectangle 6",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "113.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-455.5"
+              }
+            },
+            "tap-handler": "$curiosidades_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "110.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_6.svg"
+          },
+          {
+            "id": "Rectangle 7",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-5.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-455.5"
+              }
+            },
+            "tap-handler": "$actualidad_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_7.svg"
+          },
+          {
             "id": "Frame 6",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "15.0"
+                "attachment": "center",
+                "offset": "7.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "10.0"
+                "attachment": "center",
+                "offset": "-510.0"
               }
             },
             "size-constraints": {
@@ -448,11 +590,7 @@
             },
             "is-structured": "false",
             "children": [
-              "image 54",
               "image 2",
-              "Rectangle 6",
-              "Rectangle 5",
-              "Rectangle 4",
               "Inicio_Actualidad3",
               "Inicio_Actualidad4",
               "Inicio_Actualidad5"
@@ -463,12 +601,12 @@
             "id": "Inicio_Actualidad2",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "8.0"
+                "attachment": "center",
+                "offset": "-70.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "15.0"
+                "attachment": "center",
+                "offset": "7.5"
               }
             },
             "size-constraints": {
@@ -487,7 +625,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Puntuación",
+            "text-content": "$Inicio_Actualidad text content4",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -498,12 +636,12 @@
             "id": "Rectangle 21",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
+                "attachment": "center",
                 "offset": "0.0"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-1.0"
+                "attachment": "center",
+                "offset": "-0.5"
               }
             },
             "size-constraints": {
@@ -522,12 +660,12 @@
             "id": "image 56",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "187.0"
+                "attachment": "center",
+                "offset": "67.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "12.0"
+                "attachment": "center",
+                "offset": "2.5"
               }
             },
             "size-constraints": {
@@ -540,44 +678,19 @@
                 "value": "21.0"
               }
             },
-            "image-content": "image_56.png",
-            "scale": "cover"
-          },
-          {
-            "id": "image 54",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "-15.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "-10.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "360.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "160.0"
-              }
-            },
-            "image-content": "image_54.png",
+            "image-content": "$image 56 image content",
             "scale": "cover"
           },
           {
             "id": "image 2",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "116.0"
+                "attachment": "center",
+                "offset": "-6.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "0.0"
+                "attachment": "center",
+                "offset": "-28.5"
               }
             },
             "size-constraints": {
@@ -594,87 +707,15 @@
             "scale": "cover"
           },
           {
-            "id": "Rectangle 6",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "223.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "114.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "110.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "36.0"
-              }
-            },
-            "vector-content": "rectangle_6.svg"
-          },
-          {
-            "id": "Rectangle 5",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "111.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "114.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "97.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "36.0"
-              }
-            },
-            "vector-content": "rectangle_5.svg"
-          },
-          {
-            "id": "Rectangle 4",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "0.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "114.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "91.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "36.0"
-              }
-            },
-            "vector-content": "rectangle_4.svg"
-          },
-          {
             "id": "Inicio_Actualidad3",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "-23.0"
+                "attachment": "center",
+                "offset": "-128.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "118.0"
+                "attachment": "center",
+                "offset": "50.5"
               }
             },
             "size-constraints": {
@@ -693,7 +734,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Reviews",
+            "text-content": "$Inicio_Actualidad text content3",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -704,12 +745,12 @@
             "id": "Inicio_Actualidad4",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "75.0"
+                "attachment": "center",
+                "offset": "-14.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "117.0"
+                "attachment": "center",
+                "offset": "58.5"
               }
             },
             "size-constraints": {
@@ -728,7 +769,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Actualidad",
+            "text-content": "$Inicio_Actualidad text content2",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -739,12 +780,12 @@
             "id": "Inicio_Actualidad5",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "211.0"
+                "attachment": "center",
+                "offset": "105.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "118.0"
+                "attachment": "center",
+                "offset": "50.0"
               }
             },
             "size-constraints": {
@@ -763,7 +804,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Curiosidades\n",
+            "text-content": "$Inicio_Actualidad text content",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -774,12 +815,113 @@
       }
     }
   },
+  "parameters": {
+    "wallpaper": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "image 16 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content6": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content5": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "image 44 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "image 45 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "image 46 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "inicio_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "contacto_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "reviews_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "curiosidades_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "actualidad_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content4": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "image 56 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content3": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content2": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
   "previews": [
     {
       "design": "Review_03",
       "size": {
         "width": 360.0,
         "height": 1195.0
+      },
+      "parameters": {
+        "wallpaper": "image_9.png",
+        "image 16 image content": "image_16.png",
+        "Inicio_Actualidad text content6": "Super Mario Bros. Wonder es el culmen de todas las lecciones aprendidas entre la NES y Switch. El legítimo heredero de obras maestras de la Nintendo de toda la vida. Dando amplio margen a todo lo que ya te gusta.",
+        "Inicio_Actualidad text content5": "Revalidándolo sin sacarte jamás de esa zona de confort que son los juegos con el sello de calidad de la gran N. Y, a partir de ahí, busca sorprenderte. Y lo logra. ¡Vaya si lo logra!",
+        "image 44 image content": "image_44.png",
+        "image 45 image content": "image_45.png",
+        "image 46 image content": "image_46.png",
+        "Inicio_Actualidad text content4": "Puntuación",
+        "image 56 image content": "image_56.png",
+        "Inicio_Actualidad text content3": "Reviews",
+        "Inicio_Actualidad text content2": "Actualidad",
+        "Inicio_Actualidad text content": "Curiosidades\n"
       }
     }
   ],

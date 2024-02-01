@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "q004H5PbPkMvCm4mpQDusZ",
     "node": "193:4",
-    "version": "5069134208",
+    "version": "5077373269",
     "component-id": "a58f11a7051cfd40bbedbfbf56209c17a243838a"
   },
   "default": "Curiosidades",
@@ -121,27 +121,27 @@
             "id": "image 5",
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "360.0"
+                "sizing-mode": "proportional",
+                "value": "1.0"
               },
               "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "800.0"
+                "sizing-mode": "proportional",
+                "value": "1.0"
               }
             },
-            "image-content": "image_5.png",
+            "image-content": "$wallpaper",
             "scale": "cover"
           },
           {
             "id": "image 22",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "16.0"
+                "attachment": "center",
+                "offset": "2.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "188.0"
+                "attachment": "center",
+                "offset": "-138.0"
               }
             },
             "size-constraints": {
@@ -161,12 +161,12 @@
             "id": "image 23",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "19.0"
+                "attachment": "center",
+                "offset": "2.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "430.0"
+                "attachment": "center",
+                "offset": "105.0"
               }
             },
             "size-constraints": {
@@ -186,12 +186,12 @@
             "id": "Inicio_Actualidad",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "28.0"
+                "attachment": "center",
+                "offset": "1.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "350.0"
+                "attachment": "center",
+                "offset": "-21.5"
               }
             },
             "size-constraints": {
@@ -220,12 +220,12 @@
             "id": "Inicio_Actualidad1",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "27.0"
+                "attachment": "center",
+                "offset": "0.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "607.0"
+                "attachment": "center",
+                "offset": "235.5"
               }
             },
             "size-constraints": {
@@ -254,12 +254,12 @@
             "id": "image 7",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "300.0"
+                "attachment": "center",
+                "offset": "145.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "690.0"
+                "attachment": "center",
+                "offset": "312.5"
               }
             },
             "size-constraints": {
@@ -279,12 +279,12 @@
             "id": "image 2",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "131.0"
+                "attachment": "center",
+                "offset": "1.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "10.0"
+                "attachment": "center",
+                "offset": "-341.0"
               }
             },
             "size-constraints": {
@@ -304,12 +304,12 @@
             "id": "Rectangle 12",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "17.0"
+                "attachment": "center",
+                "offset": "3.0"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-389.0"
+                "attachment": "center",
+                "offset": "-19.5"
               }
             },
             "size-constraints": {
@@ -328,12 +328,12 @@
             "id": "Rectangle 13",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "17.0"
+                "attachment": "center",
+                "offset": "3.0"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-129.0"
+                "attachment": "center",
+                "offset": "235.5"
               }
             },
             "size-constraints": {
@@ -352,12 +352,12 @@
             "id": "Inicio_Actualidad2",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "-8.0"
+                "attachment": "center",
+                "offset": "-121.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "128.0"
+                "attachment": "center",
+                "offset": "-262.0"
               }
             },
             "size-constraints": {
@@ -387,12 +387,12 @@
             "id": "Rectangle 4",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "15.0"
+                "attachment": "center",
+                "offset": "-119.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "124.0"
+                "attachment": "center",
+                "offset": "-258.0"
               }
             },
             "tap-handler": "$reviews_buton",
@@ -412,12 +412,12 @@
             "id": "Rectangle 5",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "126.0"
+                "attachment": "center",
+                "offset": "-5.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "124.0"
+                "attachment": "center",
+                "offset": "-258.0"
               }
             },
             "tap-handler": "$actualidad_buton",
@@ -437,12 +437,12 @@
             "id": "Inicio_Actualidad3",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "226.0"
+                "attachment": "center",
+                "offset": "113.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "128.0"
+                "attachment": "center",
+                "offset": "-262.5"
               }
             },
             "size-constraints": {
@@ -472,12 +472,12 @@
             "id": "Inicio_Actualidad4",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "90.0"
+                "attachment": "center",
+                "offset": "-6.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "127.0"
+                "attachment": "center",
+                "offset": "-254.0"
               }
             },
             "size-constraints": {
@@ -507,12 +507,12 @@
             "id": "Rectangle 6",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "238.0"
+                "attachment": "center",
+                "offset": "113.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "124.0"
+                "attachment": "center",
+                "offset": "-258.0"
               }
             },
             "tap-handler": "$curiosidades_buton",
@@ -532,12 +532,12 @@
             "id": "botonImagenInicio",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "132.0"
+                "attachment": "center",
+                "offset": "0.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "0.0"
+                "attachment": "center",
+                "offset": "-346.5"
               }
             },
             "tap-handler": "$inicio_button",
@@ -556,12 +556,12 @@
             "id": "botonContacto",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "300.0"
+                "attachment": "center",
+                "offset": "142.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "688.0"
+                "attachment": "center",
+                "offset": "311.5"
               }
             },
             "tap-handler": "$contacto_button",
@@ -581,6 +581,11 @@
     }
   },
   "parameters": {
+    "wallpaper": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
     "Inicio_Actualidad text content4": {
       "data-type": "text",
       "required": false,
@@ -640,6 +645,7 @@
         "height": 800.0
       },
       "parameters": {
+        "wallpaper": "image_5.png",
         "Inicio_Actualidad text content4": "GTA V se trata de, videojuego mas caro en ser producido, alcanzando la cifra de 265 millones de dólares americanos",
         "Inicio_Actualidad text content5": "La saga más extensa de videojuegos le pertenece a Mega Man, de Capcom, desde su inicio en 1987",
         "Inicio_Actualidad text content": "Reviews",

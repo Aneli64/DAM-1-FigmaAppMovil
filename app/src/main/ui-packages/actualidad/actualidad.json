@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "q004H5PbPkMvCm4mpQDusZ",
     "node": "193:5",
-    "version": "5069134208",
+    "version": "5077540772",
     "component-id": "36aaf8f06732ceb7a489edfad92268fd4b1fefbc"
   },
   "default": "Actualidad",
@@ -94,6 +94,18 @@
       },
       {
         "type": "vector",
+        "id": "botonReview1"
+      },
+      {
+        "type": "vector",
+        "id": "botonReview2"
+      },
+      {
+        "type": "vector",
+        "id": "botonReview3"
+      },
+      {
+        "type": "vector",
         "id": "botonContacto"
       }
     ],
@@ -123,6 +135,9 @@
               "Inicio_Actualidad4",
               "Inicio_Actualidad5",
               "botonImagenInicio",
+              "botonReview1",
+              "botonReview2",
+              "botonReview3",
               "botonContacto"
             ],
             "background-color": {
@@ -136,27 +151,27 @@
             "id": "image 5",
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "360.0"
+                "sizing-mode": "proportional",
+                "value": "1.0"
               },
               "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "800.0"
+                "sizing-mode": "proportional",
+                "value": "1.0"
               }
             },
-            "image-content": "image_5.png",
+            "image-content": "$wallpaper",
             "scale": "cover"
           },
           {
             "id": "image 2",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "131.0"
+                "attachment": "center",
+                "offset": "1.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "10.0"
+                "attachment": "center",
+                "offset": "-341.0"
               }
             },
             "size-constraints": {
@@ -176,12 +191,12 @@
             "id": "image 3",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "9.0"
+                "attachment": "center",
+                "offset": "-88.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "206.0"
+                "attachment": "center",
+                "offset": "-127.0"
               }
             },
             "size-constraints": {
@@ -201,12 +216,12 @@
             "id": "image 6",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "187.0"
+                "attachment": "center",
+                "offset": "88.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "362.0"
+                "attachment": "center",
+                "offset": "31.0"
               }
             },
             "size-constraints": {
@@ -226,12 +241,12 @@
             "id": "image 20",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "7.0"
+                "attachment": "center",
+                "offset": "-89.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "517.0"
+                "attachment": "center",
+                "offset": "185.0"
               }
             },
             "size-constraints": {
@@ -251,12 +266,12 @@
             "id": "Inicio_Actualidad",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "180.0"
+                "attachment": "center",
+                "offset": "84.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "223.0"
+                "attachment": "center",
+                "offset": "-113.5"
               }
             },
             "size-constraints": {
@@ -286,12 +301,12 @@
             "id": "Inicio_Actualidad1",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "9.0"
+                "attachment": "center",
+                "offset": "-87.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "372.0"
+                "attachment": "center",
+                "offset": "35.5"
               }
             },
             "size-constraints": {
@@ -321,12 +336,12 @@
             "id": "Inicio_Actualidad2",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "185.0"
+                "attachment": "center",
+                "offset": "89.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "523.0"
+                "attachment": "center",
+                "offset": "186.5"
               }
             },
             "size-constraints": {
@@ -356,12 +371,12 @@
             "id": "image 7",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "300.0"
+                "attachment": "center",
+                "offset": "145.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "690.0"
+                "attachment": "center",
+                "offset": "312.5"
               }
             },
             "size-constraints": {
@@ -381,12 +396,12 @@
             "id": "Rectangle 14",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "180.0"
+                "attachment": "center",
+                "offset": "86.5"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-460.0"
+                "attachment": "center",
+                "offset": "-127.0"
               }
             },
             "size-constraints": {
@@ -405,12 +420,12 @@
             "id": "Rectangle 16",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "185.0"
+                "attachment": "center",
+                "offset": "89.0"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-147.0"
+                "attachment": "center",
+                "offset": "185.0"
               }
             },
             "size-constraints": {
@@ -429,12 +444,12 @@
             "id": "Rectangle 15",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "7.0"
+                "attachment": "center",
+                "offset": "-86.5"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-304.0"
+                "attachment": "center",
+                "offset": "29.0"
               }
             },
             "size-constraints": {
@@ -453,12 +468,12 @@
             "id": "Rectangle 4",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "15.0"
+                "attachment": "center",
+                "offset": "-119.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "124.0"
+                "attachment": "center",
+                "offset": "-258.0"
               }
             },
             "tap-handler": "$reviews_button",
@@ -478,12 +493,12 @@
             "id": "Rectangle 5",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "126.0"
+                "attachment": "center",
+                "offset": "-5.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "124.0"
+                "attachment": "center",
+                "offset": "-258.0"
               }
             },
             "tap-handler": "$actualidad_button",
@@ -503,12 +518,12 @@
             "id": "Rectangle 6",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "238.0"
+                "attachment": "center",
+                "offset": "113.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "124.0"
+                "attachment": "center",
+                "offset": "-258.0"
               }
             },
             "tap-handler": "$curiosidades_button",
@@ -528,12 +543,12 @@
             "id": "Inicio_Actualidad3",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "90.0"
+                "attachment": "center",
+                "offset": "-6.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "127.0"
+                "attachment": "center",
+                "offset": "-254.0"
               }
             },
             "size-constraints": {
@@ -563,12 +578,12 @@
             "id": "Inicio_Actualidad4",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "226.0"
+                "attachment": "center",
+                "offset": "113.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "128.0"
+                "attachment": "center",
+                "offset": "-262.5"
               }
             },
             "size-constraints": {
@@ -598,12 +613,12 @@
             "id": "Inicio_Actualidad5",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "-8.0"
+                "attachment": "center",
+                "offset": "-121.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "128.0"
+                "attachment": "center",
+                "offset": "-262.0"
               }
             },
             "size-constraints": {
@@ -633,12 +648,12 @@
             "id": "botonImagenInicio",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "132.0"
+                "attachment": "center",
+                "offset": "0.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "0.0"
+                "attachment": "center",
+                "offset": "-346.5"
               }
             },
             "tap-handler": "$inicio_button",
@@ -654,15 +669,90 @@
             }
           },
           {
+            "id": "botonReview1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-3.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-124.0"
+              }
+            },
+            "tap-handler": "$inicio_button",
+            "doubletap-handler": "$double_tap_button_review1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "353.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "148.0"
+              }
+            }
+          },
+          {
+            "id": "botonReview2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "3.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "31.0"
+              }
+            },
+            "tap-handler": "$inicio_button",
+            "doubletap-handler": "$double_tap_button_review2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "353.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "152.0"
+              }
+            }
+          },
+          {
+            "id": "botonReview3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "186.5"
+              }
+            },
+            "tap-handler": "$inicio_button",
+            "doubletap-handler": "$double_tap_button_review3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "353.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "159.0"
+              }
+            }
+          },
+          {
             "id": "botonContacto",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "300.0"
+                "attachment": "center",
+                "offset": "142.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "688.0"
+                "attachment": "center",
+                "offset": "311.5"
               }
             },
             "tap-handler": "$contacto_button",
@@ -682,6 +772,11 @@
     }
   },
   "parameters": {
+    "wallpaper": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
     "Inicio_Actualidad text content4": {
       "data-type": "text",
       "required": false,
@@ -732,6 +827,21 @@
       "required": false,
       "description": ""
     },
+    "double_tap_button_review1": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "double_tap_button_review2": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "double_tap_button_review3": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
     "contacto_button": {
       "data-type": "void-callback",
       "required": false,
@@ -746,6 +856,7 @@
         "height": 800.0
       },
       "parameters": {
+        "wallpaper": "image_5.png",
         "Inicio_Actualidad text content4": "Rockstar se pronuncia sobre su nueva entrega, GTA VI prometiendo  su trailer de lanzamiento pronto, ¿2025?",
         "Inicio_Actualidad text content5": "El galardón de premios anual va tocando, dentro de nada tendremos premios sobre nuestros videojuegos favoritos",
         "Inicio_Actualidad text content6": "La demo de Reisdent Evil 4 Remake VR llegará muy pronto, ya hay fecha para el DLC gratuito que permitirá jugar a esta entrega en VR",

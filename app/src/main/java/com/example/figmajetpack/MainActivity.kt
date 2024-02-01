@@ -35,94 +35,15 @@ class MainActivity : ComponentActivity() {
                     NavHost(
                         navController = navController, startDestination = Routes.InicioScreen.route
                     ) {
-                        composable(Routes.InicioScreen.route) {
-                            Inicio(
-                                actualidadText = "Actualidad",
-                                contentText1 = "¡El nuevo GTA está a la vuelta de la esquina!",
-                                contentText2 = "Reviews más recientes",
-                                botonReview = { navController.navigate(Routes.ReviewsScreen.route) },
-                                botonActualidad = { navController.navigate(Routes.ActualidadScreen.route) },
-                                inicioButton = { navController.navigate(Routes.InicioScreen.route) },
-                                contactoButton = { navController.navigate(Routes.ContactoScreen.route) },
-                                botonCuriosidades = { navController.navigate(Routes.CuriosidadesScreen.route) },
-                                curiosidadesText = "Curiosidades\n",
-                                reviewsText = "Reviews",
-                                modifier = Modifier
-                                    .rowWeight(1.0f)
-                                    .columnWeight(1.0f)
-                            )
-                        }
-                        composable(Routes.ActualidadScreen.route)
-                        {
-                            Actualidad(
-                                inicioActualidadTextContent4 = "Rockstar se pronuncia sobre su nueva entrega, GTA VI prometiendo  su trailer de lanzamiento pronto, ¿2025?",
-                                inicioActualidadTextContent5 = "El galardón de premios anual va tocando, dentro de nada tendremos premios sobre nuestros videojuegos favoritos",
-                                inicioActualidadTextContent6 = "La demo de Reisdent Evil 4 Remake VR llegará muy pronto, ya hay fecha para el DLC gratuito que permitirá jugar a esta entrega en VR",
-                                reviewsButton = { navController.navigate(Routes.ReviewsScreen.route) },
-                                actualidadButton = { navController.navigate(Routes.ActualidadScreen.route) },
-                                curiosidadesButton = { navController.navigate(Routes.CuriosidadesScreen.route) },
-                                inicioActualidadTextContent2 = "Actualidad",
-                                inicioActualidadTextContent3 = "Curiosidades\n",
-                                inicioActualidadTextContent = "Reviews",
-                                inicioButton = { navController.navigate(Routes.InicioScreen.route) },
-                                contactoButton = { navController.navigate(Routes.ContactoScreen.route) },
-                                modifier = Modifier
-                                    .rowWeight(1.0f)
-                                    .columnWeight(1.0f)
-                            )
-                        }
-                        composable(Routes.ReviewsScreen.route) {
-                            Reviews(
-                                reviewsButton = { navController.navigate(Routes.ReviewsScreen.route)},
-                                actualidadButton = { navController.navigate(Routes.ActualidadScreen.route) },
-                                curiosidadesButton = { navController.navigate(Routes.CuriosidadesScreen.route) },
-                                inicioActualidadTextContent2 = "Actualidad",
-                                inicioActualidadTextContent3 = "Curiosidades\n",
-                                inicioActualidadTextContent = "Reviews",
-                                inicioButton = { navController.navigate(Routes.InicioScreen.route) },
-                                contactoButton = { navController.navigate(Routes.ContactoScreen.route) },
-                                modifier = Modifier
-                                    .rowWeight(1.0f)
-                                    .columnWeight(1.0f)
-                            )
-                        }
-                        composable(Routes.CuriosidadesScreen.route)
-                        {
-                            Curiosidades(
-                                inicioActualidadTextContent4 = "GTA V se trata de, videojuego mas caro en ser producido, alcanzando la cifra de 265 millones de dólares americanos",
-                                inicioActualidadTextContent5 = "La saga más extensa de videojuegos le pertenece a Mega Man, de Capcom, desde su inicio en 1987",
-                                inicioActualidadTextContent = "Reviews",
-                                reviewsButon = { navController.navigate(Routes.ReviewsScreen.route) },
-                                actualidadButon = { navController.navigate(Routes.ActualidadScreen.route) },
-                                inicioActualidadTextContent3 = "Curiosidades\n",
-                                inicioActualidadTextContent2 = "Actualidad",
-                                curiosidadesButon = { navController.navigate(Routes.CuriosidadesScreen.route) },
-                                inicioButton = { navController.navigate(Routes.InicioScreen.route) },
-                                contactoButton = { navController.navigate(Routes.ContactoScreen.route) },
-                                modifier = Modifier
-                                    .rowWeight(1.0f)
-                                    .columnWeight(1.0f)
-                            )
-                        }
-                        composable(Routes.ContactoScreen.route){
-                            Contacto(
-                                inicioActualidadTextContent = "@GameOn",
-                                inicioActualidadTextContent2 = "@GameOn",
-                                inicioActualidadTextContent3 = "gameon@gmail.com",
-                                inicioActualidadTextContent4 = "GameOnYT",
-                                curiosidadesButton = { navController.navigate(Routes.CuriosidadesScreen.route) },
-                                inicioActualidadTextContent6 = "Actualidad",
-                                actualidadButton = { navController.navigate(Routes.ActualidadScreen.route) },
-                                inicioActualidadTextContent7 = "Curiosidades\n",
-                                inicioActualidadTextContent5 = "Reviews",
-                                reviewsButton = { navController.navigate(Routes.ReviewsScreen.route) },
-                                contactoButton = { navController.navigate(Routes.ContactoScreen.route) },
-                                inicioButton = { navController.navigate(Routes.InicioScreen.route) },
-                                modifier = Modifier.rowWeight(1.0f).columnWeight(1.0f)
-                            )
-                        }
+                        composable(Routes.InicioScreen.route) { InicioNav(navController = navController) }
+                        composable(Routes.ActualidadScreen.route) { ActualidadNav(navController = navController) }
+                        composable(Routes.ReviewsScreen.route) { ReviewsNav(navController = navController) }
+                        composable(Routes.CuriosidadesScreen.route) { CuriosidadesNav(navController = navController) }
+                        composable(Routes.ContactoScreen.route) { ContactoNav(navController = navController) }
+                        composable(Routes.Act1Screen.route) { Actualidad01Nav(navController = navController) }
+                        composable(Routes.Act2Screen.route) { Actualidad02Nav(navController = navController) }
+                        composable(Routes.Act3Screen.route) { Actualidad03Nav(navController = navController) }
                     }
-
                 }
             }
         }

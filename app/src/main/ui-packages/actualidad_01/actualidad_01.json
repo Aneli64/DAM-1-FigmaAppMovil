@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "q004H5PbPkMvCm4mpQDusZ",
     "node": "193:34",
-    "version": "4989201977",
+    "version": "5077972456",
     "component-id": "6753b04f07ac72235cfbafcf7015248c3c8b514d"
   },
   "default": "Actualidad_01",
@@ -49,28 +49,28 @@
         "id": "Rectangle 18"
       },
       {
-        "type": "group",
-        "id": "Frame 1"
+        "type": "vector",
+        "id": "botonImagenInicio"
       },
       {
-        "type": "image",
-        "id": "image 53"
+        "type": "vector",
+        "id": "botonContacto"
       },
       {
-        "type": "image",
-        "id": "image 2"
+        "type": "vector",
+        "id": "Rectangle 4"
       },
       {
-        "type": "text",
-        "id": "Inicio_Actualidad2"
+        "type": "vector",
+        "id": "Rectangle 6"
       },
       {
         "type": "vector",
         "id": "Rectangle 7"
       },
       {
-        "type": "vector",
-        "id": "Rectangle 4"
+        "type": "text",
+        "id": "Inicio_Actualidad2"
       },
       {
         "type": "text",
@@ -81,8 +81,8 @@
         "id": "Inicio_Actualidad4"
       },
       {
-        "type": "vector",
-        "id": "Rectangle 6"
+        "type": "image",
+        "id": "image 2"
       }
     ],
     "modes": {
@@ -100,7 +100,15 @@
               "image 8",
               "Rectangle 17",
               "Rectangle 18",
-              "Frame 1"
+              "botonImagenInicio",
+              "botonContacto",
+              "Rectangle 4",
+              "Rectangle 6",
+              "Rectangle 7",
+              "Inicio_Actualidad2",
+              "Inicio_Actualidad3",
+              "Inicio_Actualidad4",
+              "image 2"
             ],
             "background-color": {
               "alpha": "1.0",
@@ -111,29 +119,39 @@
           },
           {
             "id": "image 5",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "360.0"
+                "sizing-mode": "proportional",
+                "value": "1.0"
               },
               "height-constraints": {
                 "sizing-mode": "fixed",
-                "value": "800.0"
+                "value": "1195.0"
               }
             },
-            "image-content": "image_5.png",
+            "image-content": "$wallpaper",
             "scale": "cover"
           },
           {
             "id": "Inicio_Actualidad",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "20.0"
+                "attachment": "center",
+                "offset": "2.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "430.0"
+                "attachment": "center",
+                "offset": "-90.5"
               }
             },
             "size-constraints": {
@@ -152,7 +170,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Los fans ponen la fecha entre el 3 y 5 de diciembre\nYa solo el impacto del anuncio del trailer fue brutal en redes sociales. El hype por el juego es completamente increíble, y el pasado 8 de noviembre, Rockstar batió el récord de tuit con temática de videojuegos con más me gusta y visualizaciones de la historia, con más de 1,5 millones de me gusta y 178 millones de visitas.",
+            "text-content": "$Inicio_Actualidad text content4",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "13.0",
@@ -163,12 +181,12 @@
             "id": "Inicio_Actualidad1",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "30.0"
+                "attachment": "center",
+                "offset": "0.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "910.0"
+                "attachment": "center",
+                "offset": "367.5"
               }
             },
             "size-constraints": {
@@ -187,7 +205,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "El tamaño de su mapa jugable está aun por saber, anque en base a algunas filtraciones de confianza, podria tratarse de un mapa que prácticamente duplica el mapa de la anterior entrega",
+            "text-content": "$Inicio_Actualidad text content5",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "13.0",
@@ -198,12 +216,12 @@
             "id": "image 4",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "10.0"
+                "attachment": "center",
+                "offset": "0.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "182.0"
+                "attachment": "center",
+                "offset": "-306.5"
               }
             },
             "size-constraints": {
@@ -216,19 +234,19 @@
                 "value": "218.0"
               }
             },
-            "image-content": "image_4.png",
+            "image-content": "$image 4 image content",
             "scale": "cover"
           },
           {
             "id": "image 7",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "310.0"
+                "attachment": "center",
+                "offset": "155.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "1065.0"
+                "attachment": "center",
+                "offset": "490.0"
               }
             },
             "size-constraints": {
@@ -248,12 +266,12 @@
             "id": "image 8",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "16.0"
+                "attachment": "center",
+                "offset": "0.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "600.0"
+                "attachment": "center",
+                "offset": "142.5"
               }
             },
             "size-constraints": {
@@ -266,19 +284,19 @@
                 "value": "280.0"
               }
             },
-            "image-content": "image_8.png",
+            "image-content": "$image 8 image content",
             "scale": "cover"
           },
           {
             "id": "Rectangle 17",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "12.0"
+                "attachment": "center",
+                "offset": "-0.5"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-628.0"
+                "attachment": "center",
+                "offset": "-105.5"
               }
             },
             "size-constraints": {
@@ -297,12 +315,12 @@
             "id": "Rectangle 18",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "15.0"
+                "attachment": "center",
+                "offset": "2.5"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-180.0"
+                "attachment": "center",
+                "offset": "359.0"
               }
             },
             "size-constraints": {
@@ -318,137 +336,18 @@
             "vector-content": "rectangle_18.svg"
           },
           {
-            "id": "Frame 1",
+            "id": "botonImagenInicio",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "-8.0"
+                "attachment": "center",
+                "offset": "1.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "10.0"
+                "attachment": "center",
+                "offset": "-542.0"
               }
             },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "368.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "155.0"
-              }
-            },
-            "is-structured": "false",
-            "children": [
-              "image 53",
-              "image 2",
-              "Inicio_Actualidad2",
-              "Rectangle 7",
-              "Rectangle 4",
-              "Inicio_Actualidad3",
-              "Inicio_Actualidad4",
-              "Rectangle 6"
-            ],
-            "clip-content": "false"
-          },
-          {
-            "id": "image 53",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "10.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "-10.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "357.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "161.0"
-              }
-            },
-            "image-content": "image_53.png",
-            "scale": "cover"
-          },
-          {
-            "id": "image 2",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "139.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "0.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "100.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "98.0"
-              }
-            },
-            "image-content": "image_2.png",
-            "scale": "cover"
-          },
-          {
-            "id": "Inicio_Actualidad2",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "234.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "118.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "134.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "19.0"
-              }
-            },
-            "color": {
-              "alpha": "1.0",
-              "hue": "0.0",
-              "saturation": "0.0",
-              "value": "1.0"
-            },
-            "text-content": "Curiosidades\n",
-            "overflow": "visible",
-            "max-lines": "-1",
-            "text-size": "16.0",
-            "line-height": "1.2102272510528564",
-            "typeface": "Inter"
-          },
-          {
-            "id": "Rectangle 7",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "134.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "114.0"
-              }
-            },
+            "tap-handler": "$inicio_button",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -456,23 +355,47 @@
               },
               "height-constraints": {
                 "sizing-mode": "fixed",
-                "value": "36.0"
+                "value": "107.0"
+              }
+            }
+          },
+          {
+            "id": "botonContacto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "152.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "489.0"
               }
             },
-            "vector-content": "rectangle_7.svg"
+            "tap-handler": "$contacto_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "45.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "47.0"
+              }
+            }
           },
           {
             "id": "Rectangle 4",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "23.0"
+                "attachment": "center",
+                "offset": "-119.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "114.0"
+                "attachment": "center",
+                "offset": "-455.5"
               }
             },
+            "tap-handler": "$reviews_button",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -486,50 +409,65 @@
             "vector-content": "rectangle_4.svg"
           },
           {
-            "id": "Inicio_Actualidad3",
+            "id": "Rectangle 6",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "0.0"
+                "attachment": "center",
+                "offset": "113.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "118.0"
+                "attachment": "center",
+                "offset": "-455.5"
               }
             },
+            "tap-handler": "$curiosidades_button",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
-                "value": "134.0"
+                "value": "110.0"
               },
               "height-constraints": {
                 "sizing-mode": "fixed",
-                "value": "20.0"
+                "value": "36.0"
               }
             },
-            "color": {
-              "alpha": "1.0",
-              "hue": "0.0",
-              "saturation": "0.0",
-              "value": "1.0"
-            },
-            "text-content": "Reviews",
-            "overflow": "visible",
-            "max-lines": "-1",
-            "text-size": "16.0",
-            "line-height": "1.2102272510528564",
-            "typeface": "Inter"
+            "vector-content": "rectangle_6.svg"
           },
           {
-            "id": "Inicio_Actualidad4",
+            "id": "Rectangle 7",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "98.0"
+                "attachment": "center",
+                "offset": "-5.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "117.0"
+                "attachment": "center",
+                "offset": "-455.5"
+              }
+            },
+            "tap-handler": "$actualidad_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_7.svg"
+          },
+          {
+            "id": "Inicio_Actualidad2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-6.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-451.5"
               }
             },
             "size-constraints": {
@@ -548,7 +486,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Actualidad",
+            "text-content": "$Inicio_Actualidad text content",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -556,31 +494,169 @@
             "typeface": "Inter"
           },
           {
-            "id": "Rectangle 6",
+            "id": "Inicio_Actualidad3",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "246.0"
+                "attachment": "center",
+                "offset": "-121.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "114.0"
+                "attachment": "center",
+                "offset": "-459.5"
               }
             },
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
-                "value": "110.0"
+                "value": "134.0"
               },
               "height-constraints": {
                 "sizing-mode": "fixed",
-                "value": "36.0"
+                "value": "20.0"
               }
             },
-            "vector-content": "rectangle_6.svg"
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Inicio_Actualidad text content2",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Inicio_Actualidad4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "113.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-460.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "134.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "19.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$Inicio_Actualidad text content3",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "image 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "1.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-538.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "100.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "98.0"
+              }
+            },
+            "image-content": "image_2.png",
+            "scale": "cover"
           }
         ]
       }
+    }
+  },
+  "parameters": {
+    "wallpaper": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content4": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content5": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "image 4 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "image 8 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "inicio_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "contacto_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "reviews_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "curiosidades_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "actualidad_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content2": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content3": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
     }
   },
   "previews": [
@@ -589,6 +665,16 @@
       "size": {
         "width": 360.0,
         "height": 1195.0
+      },
+      "parameters": {
+        "wallpaper": "image_5.png",
+        "Inicio_Actualidad text content4": "Los fans ponen la fecha entre el 3 y 5 de diciembre\nYa solo el impacto del anuncio del trailer fue brutal en redes sociales. El hype por el juego es completamente increíble, y el pasado 8 de noviembre, Rockstar batió el récord de tuit con temática de videojuegos con más me gusta y visualizaciones de la historia, con más de 1,5 millones de me gusta y 178 millones de visitas.",
+        "Inicio_Actualidad text content5": "El tamaño de su mapa jugable está aun por saber, anque en base a algunas filtraciones de confianza, podria tratarse de un mapa que prácticamente duplica el mapa de la anterior entrega",
+        "image 4 image content": "image_4.png",
+        "image 8 image content": "image_8.png",
+        "Inicio_Actualidad text content": "Actualidad",
+        "Inicio_Actualidad text content2": "Reviews",
+        "Inicio_Actualidad text content3": "Curiosidades\n"
       }
     }
   ],

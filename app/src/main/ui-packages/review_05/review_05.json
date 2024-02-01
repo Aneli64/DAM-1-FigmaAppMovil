@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "q004H5PbPkMvCm4mpQDusZ",
     "node": "193:30",
-    "version": "4989201977",
+    "version": "5077373269",
     "component-id": "6939a6b3d6908a0394de87c174f47f8f2c7c744a"
   },
   "default": "Review_05",
@@ -61,6 +61,26 @@
         "id": "Frame 10"
       },
       {
+        "type": "vector",
+        "id": "botonImagenInicio"
+      },
+      {
+        "type": "vector",
+        "id": "botonContacto"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 4"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 6"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 7"
+      },
+      {
         "type": "group",
         "id": "Frame 8"
       },
@@ -78,10 +98,6 @@
       },
       {
         "type": "image",
-        "id": "image 54"
-      },
-      {
-        "type": "image",
         "id": "image 2"
       },
       {
@@ -95,18 +111,6 @@
       {
         "type": "text",
         "id": "Inicio_Actualidad5"
-      },
-      {
-        "type": "vector",
-        "id": "Rectangle 5"
-      },
-      {
-        "type": "vector",
-        "id": "Rectangle 6"
-      },
-      {
-        "type": "vector",
-        "id": "Rectangle 4"
       }
     ],
     "modes": {
@@ -127,6 +131,11 @@
               "image 49",
               "image 50",
               "Frame 10",
+              "botonImagenInicio",
+              "botonContacto",
+              "Rectangle 4",
+              "Rectangle 6",
+              "Rectangle 7",
               "Frame 8"
             ],
             "background-color": {
@@ -140,27 +149,27 @@
             "id": "image 5",
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "360.0"
+                "sizing-mode": "proportional",
+                "value": "1.0"
               },
               "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "799.0"
+                "sizing-mode": "proportional",
+                "value": "1.0"
               }
             },
-            "image-content": "image_5.png",
+            "image-content": "$wallpaper",
             "scale": "cover"
           },
           {
             "id": "image 18",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "12.0"
+                "attachment": "center",
+                "offset": "1.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "180.0"
+                "attachment": "center",
+                "offset": "-312.5"
               }
             },
             "size-constraints": {
@@ -173,19 +182,19 @@
                 "value": "210.0"
               }
             },
-            "image-content": "image_18.png",
+            "image-content": "$image 18 image content",
             "scale": "cover"
           },
           {
             "id": "Inicio_Actualidad",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "26.0"
+                "attachment": "center",
+                "offset": "-1.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "420.0"
+                "attachment": "center",
+                "offset": "-127.5"
               }
             },
             "size-constraints": {
@@ -204,7 +213,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Desciende en picado desde los cielos de Hyrule nuestro análisis de The Legend of Zelda: Tears of the Kingdom para Nintendo Switch. ¿Conseguirá la secuela de Breath of the Wild estar a la misma altura... o será capaz de volar aún más alto?",
+            "text-content": "$Inicio_Actualidad text content6",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "13.0",
@@ -215,12 +224,12 @@
             "id": "Inicio_Actualidad1",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "20.0"
+                "attachment": "center",
+                "offset": "-7.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "770.0"
+                "attachment": "center",
+                "offset": "227.5"
               }
             },
             "size-constraints": {
@@ -239,7 +248,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "No es ningún secreto que para conseguir revitalizar la saga The Legend of Zelda, Eiji Aonuma, Hidemaro Fujibayashi y el resto del equipo en Nintendo volvieron a las raíces, fijando la mirada sobre el origen de todo: el primer Zelda para Famicom y NES.",
+            "text-content": "$Inicio_Actualidad text content5",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "13.0",
@@ -250,12 +259,12 @@
             "id": "image 7",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "310.0"
+                "attachment": "center",
+                "offset": "155.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "1065.0"
+                "attachment": "center",
+                "offset": "490.0"
               }
             },
             "size-constraints": {
@@ -268,19 +277,19 @@
                 "value": "45.0"
               }
             },
-            "image-content": "image_7.png",
+            "image-content": "$image 7 image content",
             "scale": "cover"
           },
           {
             "id": "image 48",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "26.0"
+                "attachment": "center",
+                "offset": "-1.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "566.0"
+                "attachment": "center",
+                "offset": "40.5"
               }
             },
             "size-constraints": {
@@ -293,19 +302,19 @@
                 "value": "144.0"
               }
             },
-            "image-content": "image_48.png",
+            "image-content": "$image 48 image content",
             "scale": "cover"
           },
           {
             "id": "Rectangle 20",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "14.0"
+                "attachment": "center",
+                "offset": "1.5"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-675.0"
+                "attachment": "center",
+                "offset": "-135.0"
               }
             },
             "size-constraints": {
@@ -324,12 +333,12 @@
             "id": "Rectangle 21",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "12.0"
+                "attachment": "center",
+                "offset": "-0.5"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-310.0"
+                "attachment": "center",
+                "offset": "227.5"
               }
             },
             "size-constraints": {
@@ -348,12 +357,12 @@
             "id": "image 49",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "30.0"
+                "attachment": "center",
+                "offset": "-79.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "913.0"
+                "attachment": "center",
+                "offset": "360.5"
               }
             },
             "size-constraints": {
@@ -366,19 +375,19 @@
                 "value": "90.0"
               }
             },
-            "image-content": "image_49.png",
+            "image-content": "$image 49 image content",
             "scale": "cover"
           },
           {
             "id": "image 50",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "203.0"
+                "attachment": "center",
+                "offset": "87.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "913.0"
+                "attachment": "center",
+                "offset": "360.5"
               }
             },
             "size-constraints": {
@@ -391,19 +400,19 @@
                 "value": "90.0"
               }
             },
-            "image-content": "image_50.png",
+            "image-content": "$image 50 image content",
             "scale": "cover"
           },
           {
             "id": "Frame 10",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "12.0"
+                "attachment": "center",
+                "offset": "2.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "1015.0"
+                "attachment": "center",
+                "offset": "437.5"
               }
             },
             "size-constraints": {
@@ -423,6 +432,129 @@
               "image 56"
             ],
             "clip-content": "false"
+          },
+          {
+            "id": "botonImagenInicio",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "1.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-542.0"
+              }
+            },
+            "tap-handler": "$inicio_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "107.0"
+              }
+            }
+          },
+          {
+            "id": "botonContacto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "152.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "489.0"
+              }
+            },
+            "tap-handler": "$contacto_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "45.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "47.0"
+              }
+            }
+          },
+          {
+            "id": "Rectangle 4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-119.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-455.5"
+              }
+            },
+            "tap-handler": "$reviews_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "91.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_4.svg"
+          },
+          {
+            "id": "Rectangle 6",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "113.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-455.5"
+              }
+            },
+            "tap-handler": "$curiosidades_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "110.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_6.svg"
+          },
+          {
+            "id": "Rectangle 7",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-5.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-455.5"
+              }
+            },
+            "tap-handler": "$actualidad_button",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "97.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "vector-content": "rectangle_7.svg"
           },
           {
             "id": "Frame 8",
@@ -448,14 +580,10 @@
             },
             "is-structured": "false",
             "children": [
-              "image 54",
               "image 2",
               "Inicio_Actualidad3",
               "Inicio_Actualidad4",
-              "Inicio_Actualidad5",
-              "Rectangle 5",
-              "Rectangle 6",
-              "Rectangle 4"
+              "Inicio_Actualidad5"
             ],
             "clip-content": "false"
           },
@@ -463,12 +591,12 @@
             "id": "Inicio_Actualidad2",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "8.0"
+                "attachment": "center",
+                "offset": "-70.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "15.0"
+                "attachment": "center",
+                "offset": "7.5"
               }
             },
             "size-constraints": {
@@ -487,7 +615,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Puntuación",
+            "text-content": "$Inicio_Actualidad text content4",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -498,12 +626,12 @@
             "id": "Rectangle 22",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
+                "attachment": "center",
                 "offset": "0.0"
               },
               "vertical": {
-                "attachment": "end",
-                "offset": "-1.0"
+                "attachment": "center",
+                "offset": "-0.5"
               }
             },
             "size-constraints": {
@@ -522,12 +650,12 @@
             "id": "image 56",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "187.0"
+                "attachment": "center",
+                "offset": "67.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "12.0"
+                "attachment": "center",
+                "offset": "2.5"
               }
             },
             "size-constraints": {
@@ -540,44 +668,19 @@
                 "value": "21.0"
               }
             },
-            "image-content": "image_56.png",
-            "scale": "cover"
-          },
-          {
-            "id": "image 54",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "8.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "-10.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "360.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "161.0"
-              }
-            },
-            "image-content": "image_54.png",
+            "image-content": "$image 56 image content",
             "scale": "cover"
           },
           {
             "id": "image 2",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "139.0"
+                "attachment": "center",
+                "offset": "5.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "0.0"
+                "attachment": "center",
+                "offset": "-28.5"
               }
             },
             "size-constraints": {
@@ -597,12 +700,12 @@
             "id": "Inicio_Actualidad3",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "0.0"
+                "attachment": "center",
+                "offset": "-117.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "118.0"
+                "attachment": "center",
+                "offset": "50.5"
               }
             },
             "size-constraints": {
@@ -621,7 +724,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Reviews",
+            "text-content": "$Inicio_Actualidad text content3",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -632,12 +735,12 @@
             "id": "Inicio_Actualidad4",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "98.0"
+                "attachment": "center",
+                "offset": "-2.5"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "117.0"
+                "attachment": "center",
+                "offset": "58.5"
               }
             },
             "size-constraints": {
@@ -656,7 +759,7 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Actualidad",
+            "text-content": "$Inicio_Actualidad text content2",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
@@ -667,12 +770,12 @@
             "id": "Inicio_Actualidad5",
             "alignment": {
               "horizontal": {
-                "attachment": "start",
-                "offset": "234.0"
+                "attachment": "center",
+                "offset": "117.0"
               },
               "vertical": {
-                "attachment": "start",
-                "offset": "118.0"
+                "attachment": "center",
+                "offset": "50.0"
               }
             },
             "size-constraints": {
@@ -691,87 +794,107 @@
               "saturation": "0.0",
               "value": "1.0"
             },
-            "text-content": "Curiosidades\n",
+            "text-content": "$Inicio_Actualidad text content",
             "overflow": "visible",
             "max-lines": "-1",
             "text-size": "16.0",
             "line-height": "1.2102272510528564",
             "typeface": "Inter"
-          },
-          {
-            "id": "Rectangle 5",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "134.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "114.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "97.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "36.0"
-              }
-            },
-            "vector-content": "rectangle_5.svg"
-          },
-          {
-            "id": "Rectangle 6",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "246.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "114.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "110.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "36.0"
-              }
-            },
-            "vector-content": "rectangle_6.svg"
-          },
-          {
-            "id": "Rectangle 4",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "23.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "114.0"
-              }
-            },
-            "size-constraints": {
-              "width-constraints": {
-                "sizing-mode": "fixed",
-                "value": "91.0"
-              },
-              "height-constraints": {
-                "sizing-mode": "fixed",
-                "value": "36.0"
-              }
-            },
-            "vector-content": "rectangle_4.svg"
           }
         ]
       }
+    }
+  },
+  "parameters": {
+    "wallpaper": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "image 18 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content6": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content5": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "image 7 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "image 48 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "image 49 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "image 50 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "inicio_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "contacto_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "reviews_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "curiosidades_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "actualidad_button": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content4": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "image 56 image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content3": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content2": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "Inicio_Actualidad text content": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
     }
   },
   "previews": [
@@ -780,6 +903,21 @@
       "size": {
         "width": 360.0,
         "height": 1195.0
+      },
+      "parameters": {
+        "wallpaper": "image_5.png",
+        "image 18 image content": "image_18.png",
+        "Inicio_Actualidad text content6": "Desciende en picado desde los cielos de Hyrule nuestro análisis de The Legend of Zelda: Tears of the Kingdom para Nintendo Switch. ¿Conseguirá la secuela de Breath of the Wild estar a la misma altura... o será capaz de volar aún más alto?",
+        "Inicio_Actualidad text content5": "No es ningún secreto que para conseguir revitalizar la saga The Legend of Zelda, Eiji Aonuma, Hidemaro Fujibayashi y el resto del equipo en Nintendo volvieron a las raíces, fijando la mirada sobre el origen de todo: el primer Zelda para Famicom y NES.",
+        "image 7 image content": "image_7.png",
+        "image 48 image content": "image_48.png",
+        "image 49 image content": "image_49.png",
+        "image 50 image content": "image_50.png",
+        "Inicio_Actualidad text content4": "Puntuación",
+        "image 56 image content": "image_56.png",
+        "Inicio_Actualidad text content3": "Reviews",
+        "Inicio_Actualidad text content2": "Actualidad",
+        "Inicio_Actualidad text content": "Curiosidades\n"
       }
     }
   ],
