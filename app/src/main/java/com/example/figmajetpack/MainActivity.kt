@@ -3,23 +3,22 @@ package com.example.figmajetpack
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.material3.Surface
-import com.example.figmajetpack.inicio.Inicio
-import com.example.figmajetpack.ui.theme.FigmaJetPackTheme
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.figmajetpack.actualidad.Actualidad
-import com.example.figmajetpack.contacto.Contacto
-import com.example.figmajetpack.curiosidades.Curiosidades
-import com.example.figmajetpack.reviews.Reviews
-import com.google.relay.compose.BoxScopeInstance.columnWeight
-import com.google.relay.compose.BoxScopeInstance.rowWeight
+import com.example.figmajetpack.Pantallas.Actualidad01Nav
+import com.example.figmajetpack.Pantallas.Actualidad02Nav
+import com.example.figmajetpack.Pantallas.Actualidad03Nav
+import com.example.figmajetpack.Pantallas.ActualidadNav
+import com.example.figmajetpack.Pantallas.ContactoNav
+import com.example.figmajetpack.Pantallas.CuriosidadesNav
+import com.example.figmajetpack.Pantallas.InicioNav
+import com.example.figmajetpack.Pantallas.ReviewsNav
+import com.example.figmajetpack.ui.theme.FigmaJetPackTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

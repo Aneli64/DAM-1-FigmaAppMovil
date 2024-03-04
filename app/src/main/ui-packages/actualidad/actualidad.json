@@ -5,7 +5,7 @@
     "type": "figma",
     "file": "q004H5PbPkMvCm4mpQDusZ",
     "node": "193:5",
-    "version": "5077540772",
+    "version": "5078264353",
     "component-id": "36aaf8f06732ceb7a489edfad92268fd4b1fefbc"
   },
   "default": "Actualidad",
@@ -681,7 +681,7 @@
               }
             },
             "tap-handler": "$inicio_button",
-            "doubletap-handler": "$double_tap_button_review1",
+            "doubletap-handler": "$double_tap_button_act1",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -706,7 +706,7 @@
               }
             },
             "tap-handler": "$inicio_button",
-            "doubletap-handler": "$double_tap_button_review2",
+            "doubletap-handler": "$double_tap_button_act2",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -731,7 +731,7 @@
               }
             },
             "tap-handler": "$inicio_button",
-            "doubletap-handler": "$double_tap_button_review3",
+            "doubletap-handler": "$double_tap_button_act3",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
@@ -827,17 +827,17 @@
       "required": false,
       "description": ""
     },
-    "double_tap_button_review1": {
+    "double_tap_button_act1": {
       "data-type": "void-callback",
       "required": false,
       "description": ""
     },
-    "double_tap_button_review2": {
+    "double_tap_button_act2": {
       "data-type": "void-callback",
       "required": false,
       "description": ""
     },
-    "double_tap_button_review3": {
+    "double_tap_button_act3": {
       "data-type": "void-callback",
       "required": false,
       "description": ""
